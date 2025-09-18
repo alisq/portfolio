@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Juncture';
+    src: url('./JunctureVF.woff2') format('woff2');
+}
+
+
+*,
+*:before,
+*:after {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+
+} 
+
+body {
+    font-family: 'Juncture';
+    font-weight:300;
+}
+
+strong {
+    font-weight:600;
+}
+
+//TEASERS
+
+table {
+    margin:1em;
+    width:calc(100% - 2em);
+    border-spacing: 0;
+    border-top:1px solid #000;
+
+    & td {
+        border-bottom:1px solid #000;
+        padding:1em;
+        transition: all 0.15s;
+        
+    }
+
+    & tr:hover td{
+        color:white;
+        background:black;
+        padding :2em 1em;
+        
+        // &.title_cell {
+        //     font-size:1.2em;
+        // }
+    }
+
+    
+
+    
+}
+
+.hover_preview {
+    position:fixed;
+}

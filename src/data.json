@@ -1,14 +1,106 @@
-data = [
-    {"title": "juncture", "year":"", "medium": "", "pics": [], "desc": ""},
-    {"title": "there are no words", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "zeitpunkt", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "aaha", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "aaha", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "verso", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "art met", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "don pyle", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "this is not an archive", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "living with war", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "mice", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "vector", "year":"", "medium": "", "pics": [], "desc": ""},
-{"title": "vector", "year":"", "medium": "", "pics": [], "desc": ""}];
+[
+    {
+        "title": "juncture", 
+        "id": "juncture", 
+        "year":2025, 
+        "media": "Typeface", 
+        "pics": ["test.png"], 
+        "desc": ""
+    },
+    {
+        "title": "there are no words", 
+        "id": "nowords", 
+        "year":2025, 
+        "media": "Credit Sequence", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "zeitpunkt", 
+        "id": "zeitpunkt", 
+        "year":2025, 
+        "media": "Typeface", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "AAHA Superstudio", 
+        "id": "aahasuperstudio", 
+        "year":2025, 
+        "media": "Website", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "AAHA: Not for Sale!", 
+        "id": "aahanfs", 
+        "year":2023, 
+        "media": "Website", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "Travellers of the World Revolution", 
+        "id": "totw", 
+        "year":2023, 
+        "media": "Book Cover", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "art met", 
+        "id": "art_met", 
+        "year":2022, 
+        "media": "", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "Shot in a Mirror", 
+        "id": "sotm", 
+        "year":2022, 
+        "media": "Book", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "this is not an archive", 
+        "id": "thisisnotanarchive", 
+        "year":2022, 
+        "media": "", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "living with war", 
+        "id": "lww", 
+        "year":2022, 
+        "media": "", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "mice", 
+        "id": "mice", 
+        "year":2022, 
+        "media": "", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "vector", 
+        "id": "vector2016", 
+        "year":2016, 
+        "media": "", 
+        "pics": [], 
+        "desc": ""
+    },
+    {
+        "title": "vector", 
+        "id": "vector2017", 
+        "year":2017, 
+        "media": "", 
+        "pics": [], 
+        "desc": ""
+    }
+]

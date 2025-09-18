@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './css/app.css';
+import projects from './data.json';
+import Teaser from './components/teaser'
+import { useState } from 'react';
+
+
 
 function App() {
+
+   const [openId, setOpenId] = useState(null);
+    const handleToggle = (id) => {
+        setOpenId((prev) => (prev === id ? null : id))
+    }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <table>
+{
+        projects.map((item, index) => (
+          <Teaser 
+            id={item.id}
+            title={item.title}
+            year={item.year}
+            media={item.media}
+            pics={item.pics}
+            desc={item.desc}
+            isOpen={openId === item.id}
+            onToggle={() => handleToggle(item.id)}
+          />
+        ))
+      } 
+      </table>
     </div>
   );
 }
