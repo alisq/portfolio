@@ -1,27 +1,30 @@
 [
     {
-        "title": "juncture", 
+        "title": "Juncture Variable", 
         "id": "juncture", 
         "year":2025, 
         "media": "Typeface", 
         "pics": ["test.png"], 
-        "desc": ""
+        "desc": "<p>Inspired by midcentury industrial utopianism, eschewing the human hand for shapes that seek to maximize their own relationships to systematic production, Juncture is an attempt to create a font that looks like it was produced by a committee of tool and dye makers some time in the 1960s.  In its current form, Juncture is a variable font which ranges from a less-refined thin form and a more refined semi-bold. </p>",
+        "link": ""
     },
     {
-        "title": "there are no words", 
+        "title": "There Are No Words", 
         "id": "nowords", 
         "year":2025, 
-        "media": "Credit Sequence", 
+        "media": "Title Sequence", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
-        "title": "zeitpunkt", 
+        "title": "Zeitpunkt", 
         "id": "zeitpunkt", 
         "year":2025, 
         "media": "Typeface", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
         "title": "AAHA Superstudio", 
@@ -29,7 +32,8 @@
         "year":2025, 
         "media": "Website", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": "https://superstudio.aaha.ca"
     },
     {
         "title": "AAHA: Not for Sale!", 
@@ -37,7 +41,8 @@
         "year":2023, 
         "media": "Website", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": "https://aaha.ca"
     },
     {
         "title": "Travellers of the World Revolution", 
@@ -45,23 +50,35 @@
         "year":2023, 
         "media": "Book Cover", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
+    },
+      {
+        "title": "Aftertext Vol. 01", 
+        "id": "aftertexts", 
+        "year":2025, 
+        "media": "Book", 
+        "pics": [], 
+        "desc": "",
+        "link": ""
     },
     {
-        "title": "art met", 
+        "title": "Art Metropole — Fundraising Campaign", 
         "id": "art_met", 
-        "year":2022, 
+        "year":2024, 
         "media": "", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
         "title": "Shot in a Mirror", 
         "id": "sotm", 
-        "year":2022, 
+        "year":2023, 
         "media": "Book", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
         "title": "this is not an archive", 
@@ -69,7 +86,8 @@
         "year":2022, 
         "media": "", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
         "title": "living with war", 
@@ -77,7 +95,8 @@
         "year":2022, 
         "media": "", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
         "title": "mice", 
@@ -85,7 +104,18 @@
         "year":2022, 
         "media": "", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
+    },
+
+    {
+        "title": "Various Posters and Prints", 
+        "id": "various", 
+        "year":2022, 
+        "media": "", 
+        "pics": [], 
+        "desc": "",
+        "link": ""
     },
     {
         "title": "vector", 
@@ -93,7 +123,8 @@
         "year":2016, 
         "media": "", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     },
     {
         "title": "vector", 
@@ -101,6 +132,7 @@
         "year":2017, 
         "media": "", 
         "pics": [], 
-        "desc": ""
+        "desc": "",
+        "link": ""
     }
 ]

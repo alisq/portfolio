@@ -3,7 +3,9 @@
     src: url('./JunctureVF.woff2') format('woff2');
 }
 
-
+img {
+    max-width:100%;
+}
 *,
 *:before,
 *:after {
@@ -31,14 +33,19 @@ table {
     border-spacing: 0;
     border-top:1px solid #000;
 
-    & td {
-        border-bottom:1px solid #000;
+    & tr.teaser_row td {
+        
         padding:1em;
         transition: all 0.15s;
         
     }
 
-    & tr:hover td{
+    & tr.rule td {
+        padding:0;
+        border-bottom:1px solid #000;
+    }
+
+    & tr.teaser_row:hover td{
         color:white;
         background:black;
         padding :2em 1em;
@@ -55,4 +62,27 @@ table {
 
 .hover_preview {
     position:fixed;
+    & img {
+        max-width:500px;
+        max-height:300px;
+    }
+}
+
+
+.expanded {
+    max-height:0;
+    overflow:hidden;
+    padding:0;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 1em;
+  
+  transition: max-height .3s, padding .3s;
+  text-align:left;
+
+  .active & {
+    padding:1em;
+    max-height:500px;
+    padding-bottom:3em;
+  }
 }

@@ -1,4 +1,5 @@
 import {useState} from "react";
+import parse from 'html-react-parser';
 
 function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
     const [isHovered, setIsHovered] = useState(false);
@@ -9,7 +10,7 @@ function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
 
     return(
         <>
-        <tr className={`artist-card ${isHovered ? "hovered" : ""} ${isOpen ? "active" : ""}`}
+        <tr className={`teaser_row ${isHovered ? "hovered" : ""} ${isOpen ? "active" : ""}`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             onMouseMove={handleMouseMove} 
@@ -31,7 +32,7 @@ function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
           }}
         >
           <img
-            src={'../public/media/'+pics[0]}
+            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
             
             
           />
@@ -39,6 +40,40 @@ function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
         
       )}
 
+       <tr
+          className={`hidden_content ${isOpen ? "active" : ""}`}
+          onClick={onToggle}><td colspan="10">
+
+            <div className="expanded">
+            
+          
+              
+                
+                <p>{ parse(desc) }</p>
+              
+           <img
+            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
+            
+            
+          />
+           <img
+            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
+            
+            
+          />
+           <img
+            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
+            
+            
+          />
+           <img
+            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
+            
+            
+          />
+          </div>
+            </td></tr>
+<tr className="rule"><td colspan="10"></td></tr>
 </>
     )
 }
