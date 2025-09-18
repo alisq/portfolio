@@ -1,0 +1,14 @@
+data = [
+    {"title": "juncture", "year":"", "medium": "", "pics": [], "desc": ""},
+    {"title": "there are no words", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "zeitpunkt", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "aaha", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "aaha", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "verso", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "art met", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "don pyle", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "this is not an archive", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "living with war", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "mice", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "vector", "year":"", "medium": "", "pics": [], "desc": ""},
+{"title": "vector", "year":"", "medium": "", "pics": [], "desc": ""}];
