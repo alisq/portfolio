@@ -1,40 +1,41 @@
 
 import './css/app.css';
-import projects from './data.json';
-import Teaser from './components/teaser'
-import { useState } from 'react';
+import TeaserList from './components/teaserList'
+
+import { Routes, Route } from "react-router-dom";
 
 
 
 function App() {
 
-   const [openId, setOpenId] = useState(null);
-    const handleToggle = (id) => {
-        setOpenId((prev) => (prev === id ? null : id))
-    }
 
 
   return (
     <div className="App">
-     
-      <table>
-        <tbody>
-          {
-        projects.map((item, index) => (
-          <Teaser 
-            id={item.id}
-            title={item.title}
-            year={item.year}
-            media={item.media}
-            pics={item.pics}
-            desc={item.desc}
-            isOpen={openId === item.id}
-            onToggle={() => handleToggle(item.id)}
-          />
-        ))
-      } 
-        </tbody>
-      </table>
+        <table className="noBorder">
+          <tr>
+            <td>
+              <h1>Ali S. Qadeer</h1>
+            </td>
+            <td>
+              <h1 className="right"><span className="zp">Recent Work</span></h1>
+              </td>
+          </tr>
+        </table>
+           <Routes>
+      <Route path="/" element={<TeaserList />} />
+      <Route path="/work/:teaserId" element={<TeaserList />} />
+    </Routes>
+                <table className="noBorder">
+          <tr>
+            <td>
+              <h1>ali.shamas.qadeer@gmail.com</h1>
+            </td>
+            <td>
+              <h1 className="right"><span className="zp"></span></h1>
+              </td>
+          </tr>
+        </table>
     </div>
   );
 }

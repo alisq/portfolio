@@ -2,6 +2,10 @@
   font-family: "Juncture";
   src: url("./JunctureVF.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Zeitpunkt";
+  src: url("./Zeitpunkt-Light.woff2") format("woff2");
+}
 img {
   max-width: 100%;
 }
@@ -14,6 +18,20 @@ img {
   box-sizing: border-box;
 }
 
+a:link,
+a:active,
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.link {
+  font-weight: 500;
+}
+
 body {
   font-family: "Juncture";
   font-weight: 300;
@@ -21,6 +39,24 @@ body {
 
 strong {
   font-weight: 600;
+}
+
+.zp {
+  font-family: "Zeitpunkt";
+  font-size: 0.85em;
+}
+
+.noBorder {
+  border: none;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.thumb {
+  max-height: 150px;
 }
 
 table {
@@ -54,10 +90,12 @@ table tr.teaser_row:hover td {
 
 .hover_preview {
   position: fixed;
+  pointer-events: none;
 }
 .hover_preview img {
   max-width: 500px;
   max-height: 300px;
+  transform: translate(20px, -50%);
 }
 .active .hover_preview {
   display: none;

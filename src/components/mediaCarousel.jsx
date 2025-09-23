@@ -8,7 +8,7 @@ const defaultFlickityOptions = {
   lazyLoad: true,
   imagesLoaded: true,
   initialIndex: 1,
-  wrapAround: true
+  wrapAround: true,
 
 };
 
