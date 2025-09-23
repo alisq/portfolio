@@ -5,8 +5,9 @@
         "year":2025, 
         "media": "Typeface", 
         "pics": [
-                    {"url":"juncture_comp.gif","desc":"","alt":"foo!"},
-                    {"url":"test.png","desc":"","alt":"foo!"}
+            {"url":"juncture/specimen.gif","desc":"","alt":"multiple weights as a typographic specimen"},    
+            {"url":"juncture/juncture_comp.gif","desc":"","alt":"animentated alphabet as weight oscillated"}
+                    
                 ], 
         "desc": "<p>Inspired by midcentury industrial utopianism, eschewing the human hand for shapes that seek to maximize their own relationships to systematic production, Juncture is an attempt to create a font that looks like it was produced by a committee of tool and dye makers some time in the 1960s.  In its current form, Juncture is a variable font which ranges from a less-refined thin form and a more refined semi-bold. </p>",
         "link": ""
