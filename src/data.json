@@ -4,7 +4,12 @@
         "id": "juncture", 
         "year":2025, 
         "media": "Typeface", 
-        "pics": ["test.png"], 
+        "pics": [
+                    {"url":"/tanw/title.gif","desc":"","alt":"foo!"},
+                    {"url":"/tanw/end.gif","desc":"","alt":"foo!"},
+                    {"url":"test.png","desc":"","alt":"foo!"},
+                    {"url":"test.png","desc":"","alt":"foo!"}
+                ], 
         "desc": "<p>Inspired by midcentury industrial utopianism, eschewing the human hand for shapes that seek to maximize their own relationships to systematic production, Juncture is an attempt to create a font that looks like it was produced by a committee of tool and dye makers some time in the 1960s.  In its current form, Juncture is a variable font which ranges from a less-refined thin form and a more refined semi-bold. </p>",
         "link": ""
     },
@@ -14,7 +19,7 @@
         "year":2025, 
         "media": "Title Sequence", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
         "link": ""
     },
     {
@@ -23,7 +28,7 @@
         "year":2025, 
         "media": "Typeface", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Zeitpunkt is an idiosyncratic revival of Lateinisch, designed for the Berthold Type Foundry by the Vienna Secession artist Peter Schnorr.  Originally discovered in a number of socialist pamphlets printed in Berlin around the the 1920s, I believe the source font was originally used as a transition from Fakturs to Antiquas at the time.</p>",
         "link": ""
     },
     {
@@ -32,7 +37,7 @@
         "year":2025, 
         "media": "Website", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Website design and development for the superstudio spanning 15+ architectural courses across Canada devoted to ending housing alienation.</p>",
         "link": "https://superstudio.aaha.ca"
     },
     {
@@ -41,7 +46,7 @@
         "year":2023, 
         "media": "Website", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Website design and development for the Canadian entry into the 2023 Venice Architecture Biennale. I also had the opportunity to work closely on the plan and development of the project as a campaign collaborator and member of the Toronto collective, Gentrification Tax Action.</p>",
         "link": "https://aaha.ca"
     },
     {
@@ -50,8 +55,8 @@
         "year":2023, 
         "media": "Book Cover", 
         "pics": [], 
-        "desc": "",
-        "link": ""
+        "desc": "<p>Book cover for Brigitte Studer’s comphrensive history of the Third International, released in 2023 on Verso Books</p>",
+        "link": "https://www.versobooks.com/en-gb/products/2938-travellers-of-the-world-revolution"
     },
       {
         "title": "Aftertext Vol. 01", 
@@ -59,80 +64,71 @@
         "year":2025, 
         "media": "Book", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Design and art direction for </p>",
         "link": ""
     },
     {
         "title": "Art Metropole — Fundraising Campaign", 
         "id": "art_met", 
         "year":2024, 
-        "media": "", 
+        "media": "Invitation, Catalog, Social Media Campaign ", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Variouis print and digital assets for the 50th anniversary fundraiser party for Art Metrpole, a Toronto-based, non-profit artist-run centre  and bookstore established 1974.</p>",
         "link": ""
     },
     {
         "title": "Shot in a Mirror", 
         "id": "sotm", 
-        "year":2023, 
+        "year":2022, 
         "media": "Book", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Book design and art direction for Don Pyle’s second photography book, cataloging images of friends from his 40+ year history in the arts and music scenes in Toronto and beyond.</p>",
         "link": ""
     },
     {
         "title": "this is not an archive", 
         "id": "thisisnotanarchive", 
         "year":2022, 
-        "media": "", 
+        "media": "Experimental Website, Font", 
         "pics": [], 
-        "desc": "",
-        "link": ""
+        "desc": "<p>\"The first chapter of an iterative digital release produced by the Toronto Biennial of Art (TBA). Bringing together the voices and process-based methodologies of past and present contributors to TBA Programs, this publication traces the ever-changing networks of relationships between practices, ideas, and questions brought forward by esteemed contributors, while also offering you as a reader a space to create new connections among the contents with downloadable and printable options.\"</p><p> Website, mycelial growth pattern, interactive mapping application, and parametric typeface all developed in collaboration with Chris Lee.</p>",
+        "link": "https://thisisnotanarchive.ca"
     },
     {
-        "title": "living with war", 
+        "title": "Living With War", 
         "id": "lww", 
-        "year":2022, 
-        "media": "", 
+        "year":2018, 
+        "media": "Book Cover", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Book cover design for Rob Teigrob’s book, Living with War, for UofT Press. Hardcover and clothbound editions.</p>",
+        "link": ""
+    },
+      {
+        "title": "O Fallen Angel", 
+        "id": "ofa", 
+        "year":2017, 
+        "media": "Book Cover", 
+        "pics": [], 
+        "desc": "<p>Book cover design for Kate Zambrenos’s book, Living with War, for UofT Press. Paperback reprint bia Harper Perennial.</p>",
         "link": ""
     },
     {
-        "title": "mice", 
+        "title": "Moving Image Culture Etc.", 
         "id": "mice", 
         "year":2022, 
-        "media": "", 
+        "media": "Website, Identity", 
         "pics": [], 
-        "desc": "",
+        "desc": "<p>Design and development for MICE (print and web). an online periodical devoted to critical writing and artists’ projects about and within moving image culture. It is published twice annually in Toronto, but its focus is international. As the scope of the project grew beyond moving images, the identity was designed to accommodate multiple acronyms.</p>",
         "link": ""
     },
 
     {
-        "title": "Various Posters and Prints", 
+        "title": "Various Posters and Print ephemera", 
         "id": "various", 
         "year":2022, 
-        "media": "", 
+        "media": "Mostly Print", 
         "pics": [], 
-        "desc": "",
-        "link": ""
-    },
-    {
-        "title": "vector", 
-        "id": "vector2016", 
-        "year":2016, 
-        "media": "", 
-        "pics": [], 
-        "desc": "",
-        "link": ""
-    },
-    {
-        "title": "vector", 
-        "id": "vector2017", 
-        "year":2017, 
-        "media": "", 
-        "pics": [], 
-        "desc": "",
+        "desc": "<p> </p>",
         "link": ""
     }
 ]

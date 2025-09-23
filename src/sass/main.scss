@@ -60,25 +60,45 @@ table {
     
 }
 
+
+.close {
+    font-size:2em;
+    opacity:0;
+    
+
+    .active &  {
+        opacity:1;
+        cursor:pointer;
+    }
+}
+
 .hover_preview {
     position:fixed;
     & img {
         max-width:500px;
         max-height:300px;
     }
+
+    .active &  {
+        display:none;
+    }
 }
+
 
 
 .expanded {
     max-height:0;
     overflow:hidden;
     padding:0;
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  column-gap: 1em;
-  
-  transition: max-height .3s, padding .3s;
-  text-align:left;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    column-gap: 1em;  
+    transition: max-height .3s, padding .3s;
+    text-align:left;
+
+    & p {
+        font-size:1.5em;
+    }
 
   .active & {
     padding:1em;

@@ -1,5 +1,13 @@
 import {useState} from "react";
 import parse from 'html-react-parser';
+const Flickity = require('react-flickity-component');
+// Or for ES2015 module
+// import Flickity from 'react-flickity-component'
+
+const flickityOptions = {
+    initialIndex: 2
+}
+
 
 function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
     const [isHovered, setIsHovered] = useState(false);
@@ -19,6 +27,7 @@ function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
             <td className="title_cell"><strong>{title}</strong></td>
             <td>{year}</td>
             <td>{media}</td>
+            <td><div className="close">&times;</div></td>
         </tr>
           {isHovered && (
         
@@ -31,49 +40,60 @@ function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
             
           }}
         >
-          <img
-            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
-            
-            
-          />
+     
+
+            {pics.length > 0 ? (
+          
+            <img src={'https://alisq.github.io/portfolio/public/media/'+pics[0].url} />
+          
+        
+      ) : null}
         </div>
         
       )}
 
-       <tr
-          className={`hidden_content ${isOpen ? "active" : ""}`}
-          onClick={onToggle}><td colspan="10">
+       <tr className={`hidden_content ${isOpen ? "active" : ""}`}>
+          <td colSpan="10">
 
             <div className="expanded">
+                    
+
             
+                { parse(desc) }
+
+        <div className="media">
+
+    <div className="artwork">
+<Flickity
+      className={'carousel'}                
+      elementType={'div'}                   
+      options={flickityOptions}
+      disableImagesLoaded
+      reloadOnUpdate
+      static
+    >
+      {Array.isArray(pics) && pics.length > 0 ? (
+            
+        pics.map((pic, i) => {
           
-              
+          return (
+            <img
+              key={i}
+              src={'https://alisq.github.io/portfolio/public/media/'+pic.url}
+              alt={pic.alt || `Artwork image ${i + 1}`}
+            />
+          );
+        })
+        
+      ):null}
+      </Flickity>
+    </div>
+  
+        </div>
                 
-                <p>{ parse(desc) }</p>
-              
-           <img
-            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
-            
-            
-          />
-           <img
-            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
-            
-            
-          />
-           <img
-            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
-            
-            
-          />
-           <img
-            src={'https://alisq.github.io/portfolio/public/media/'+pics[0]}
-            
-            
-          />
-          </div>
+</div>
             </td></tr>
-<tr className="rule"><td colspan="10"></td></tr>
+<tr className="rule"><td colSpan="10"></td></tr>
 </>
     )
 }

@@ -43,6 +43,15 @@ table tr.teaser_row:hover td {
   padding: 2em 1em;
 }
 
+.close {
+  font-size: 2em;
+  opacity: 0;
+}
+.active .close {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .hover_preview {
   position: fixed;
 }
@@ -50,16 +59,22 @@ table tr.teaser_row:hover td {
   max-width: 500px;
   max-height: 300px;
 }
+.active .hover_preview {
+  display: none;
+}
 
 .expanded {
   max-height: 0;
   overflow: hidden;
   padding: 0;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 500px 1fr;
   column-gap: 1em;
   transition: max-height 0.3s, padding 0.3s;
   text-align: left;
+}
+.expanded p {
+  font-size: 1.5em;
 }
 .active .expanded {
   padding: 1em;

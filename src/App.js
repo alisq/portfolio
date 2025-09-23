@@ -18,7 +18,8 @@ function App() {
     <div className="App">
      
       <table>
-{
+        <tbody>
+          {
         projects.map((item, index) => (
           <Teaser 
             id={item.id}
@@ -32,6 +33,7 @@ function App() {
           />
         ))
       } 
+        </tbody>
       </table>
     </div>
   );
