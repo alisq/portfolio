@@ -1,12 +1,8 @@
 import {useState} from "react";
 import parse from 'html-react-parser';
-const Flickity = require('react-flickity-component');
-// Or for ES2015 module
-// import Flickity from 'react-flickity-component'
+import MediaCarousel from "./mediaCarousel";
 
-const flickityOptions = {
-    initialIndex: 2
-}
+
 
 
 function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
@@ -64,29 +60,7 @@ function Teaser({id, title, year, media, pics, desc, isOpen, onToggle}){
         <div className="media">
 
     <div className="artwork">
-<Flickity
-      className={'carousel'}                
-      elementType={'div'}                   
-      options={flickityOptions}
-      disableImagesLoaded
-      reloadOnUpdate
-      static
-    >
-      {Array.isArray(pics) && pics.length > 0 ? (
-            
-        pics.map((pic, i) => {
-          
-          return (
-            <img
-              key={i}
-              src={'https://alisq.github.io/portfolio/public/media/'+pic.url}
-              alt={pic.alt || `Artwork image ${i + 1}`}
-            />
-          );
-        })
-        
-      ):null}
-      </Flickity>
+        return <MediaCarousel pics={pics} />;
     </div>
   
         </div>
