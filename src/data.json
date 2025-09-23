@@ -31,13 +31,13 @@
         "year":2025, 
         "media": "Typeface", 
         "pics": [
-                    {"url":"public/media/zeitpunkt/waterfalls.png","desc":"","alt":"Sample words set in Zeitpunkt"},
-                    {"url":"public/media/zeitpunkt/pages.png ","desc":"Original scan of Terrorism and Communism found on archive.org","alt":"Original scan of Terrorism and Communism found on archive.org"},
-                    {"url":"public/media/zeitpunkt/specimen.png.001.png ","desc":"Zeitpunkt Characterset","alt":"Zeitpunkt Characterset"},        
+                    {"url":"/zeitpunkt/waterfalls.png","desc":"","alt":"Sample words set in Zeitpunkt"},
+                    {"url":"/zeitpunkt/pages.png ","desc":"Original scan of Terrorism and Communism found on archive.org","alt":"Original scan of Terrorism and Communism found on archive.org"},
+                    {"url":"/zeitpunkt/specimen.png.001.png ","desc":"Zeitpunkt Characterset","alt":"Zeitpunkt Characterset"},        
             
                     
                     
-                    {"url":"public/media/zeitpunkt/engels.001.png","desc":"Test page from Conditions of the Working Class In England","alt":"Test page from Conditions of the Working Class In England"}
+                    {"url":"/zeitpunkt/engels.001.png","desc":"Test page from Conditions of the Working Class In England","alt":"Test page from Conditions of the Working Class In England"}
 
  
 
@@ -51,7 +51,7 @@
         "year":2025, 
         "media": "Website", 
         "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
+                    {"url":"/aahasuperstudio/cover.png","desc":"Desktop verion of the fron page for the AAHA Superstudio site","alt":""}
                 ],  
         "desc": "<p>Website design and development for the superstudio spanning 15+ architectural courses across Canada devoted to ending housing alienation.</p>",
         "link": "https://superstudio.aaha.ca"
@@ -62,7 +62,7 @@
         "year":2023, 
         "media": "Website", 
         "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
+                    {"url":"/aahanfs/cover.png","desc":"Desktop verion of the fron page for the AAHA Not For Sale site","alt":""}
                 ],  
         "desc": "<p>Website design and development for the Canadian entry into the 2023 Venice Architecture Biennale. I also had the opportunity to work closely on the plan and development of the project as a campaign collaborator and member of the Toronto collective, Gentrification Tax Action.</p>",
         "link": "https://aaha.ca"
