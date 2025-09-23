@@ -32,8 +32,11 @@
         "media": "Typeface", 
         "pics": [
                     {"url":"public/media/zeitpunkt/waterfalls.png","desc":"","alt":"Sample words set in Zeitpunkt"},
-                    {"url":"public/media/zeitpunkt/pages.png ","desc":"","alt":"foo!"},
-                    {"url":"public/media/zeitpunkt/specimen.png.001.png ","desc":"","alt":"foo!"},
+                    {"url":"public/media/zeitpunkt/pages.png ","desc":"Original scan of Terrorism and Communism found on archive.org","alt":"Original scan of Terrorism and Communism found on archive.org"},
+                    {"url":"public/media/zeitpunkt/specimen.png.001.png ","desc":"Zeitpunkt Characterset","alt":"Zeitpunkt Characterset"},        
+            
+                    
+                    
                     {"url":"public/media/zeitpunkt/engels.001.png","desc":"Test page from Conditions of the Working Class In England","alt":"Test page from Conditions of the Working Class In England"}
 
  
