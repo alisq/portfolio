@@ -73,7 +73,8 @@
         "year":2023, 
         "media": "Book Cover", 
         "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
+                    {"url":"/totw/travellers.jpg", "desc":"complete dust jacket for Travellers of the World Revolution","alt":"complete dust jacket for Travellers of the World Revolution"},
+                    {"url":"/totw/additionals.jpg","desc":"Additional Cover Sketches","alt":"Additional Cover Sketches"}
                 ],  
         "desc": "<p>Book cover for Brigitte Studer’s comphrensive history of the Third International, released in 2023 on Verso Books</p>",
         "link": "https://www.versobooks.com/en-gb/products/2938-travellers-of-the-world-revolution"
