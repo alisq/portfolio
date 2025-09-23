@@ -17,8 +17,9 @@
         "year":2025, 
         "media": "Title Sequence", 
         "pics": [
-                    {"url":"/tanw/title.gif","desc":"","alt":"foo!"},
-                    {"url":"/tanw/end.gif","desc":"","alt":"foo!"}
+                    {"url":"/tanw/tanw-process.png", "desc":"","alt":"process document screenshot"},
+                    {"url":"/tanw/title.gif","desc":"","alt":"Opening Credit Sequence: there are no words fades in staggered on black"},
+                    {"url":"/tanw/end.gif","desc":"","alt":"end credits"}
                 ], 
         "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
         "link": ""

@@ -78,7 +78,7 @@ table tr.teaser_row:hover td {
 }
 .active .expanded {
   padding: 1em;
-  max-height: 500px;
+  max-height: 900px;
   padding-bottom: 3em;
 }
 
