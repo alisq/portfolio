@@ -5,8 +5,6 @@
         "year":2025, 
         "media": "Typeface", 
         "pics": [
-                    {"url":"/tanw/title.gif","desc":"","alt":"foo!"},
-                    {"url":"/tanw/end.gif","desc":"","alt":"foo!"},
                     {"url":"test.png","desc":"","alt":"foo!"},
                     {"url":"test.png","desc":"","alt":"foo!"}
                 ], 
@@ -18,7 +16,10 @@
         "id": "nowords", 
         "year":2025, 
         "media": "Title Sequence", 
-        "pics": [], 
+        "pics": [
+                    {"url":"/tanw/title.gif","desc":"","alt":"foo!"},
+                    {"url":"/tanw/end.gif","desc":"","alt":"foo!"}
+                ], 
         "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
         "link": ""
     },
