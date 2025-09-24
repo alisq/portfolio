@@ -75,6 +75,18 @@ strong {
     border:none;
 }
 
+header, footer {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding:2rem 2rem 0 2rem;
+
+    & h1:nth-child(2) {
+        text-align:right;
+    }
+
+
+}
+
 h1 {
     font-weight:300;
     font-size:60px;
@@ -219,10 +231,36 @@ table {
 
 @media (max-width:1000px) {
 
+    header, footer {
+    display:block;
+    padding:0;
+
+    & h1 {
+        text-align:center;
+        font-size:30px;
+        padding:0.25rem;
+    }
+
+    & h1:nth-child(2) {
+        text-align:center;
+    }
+
+
+}
+
+
+table {
+    margin:0;
+    width:100%;
+}
     table tr.teaser_row td,
     .active .expanded {
-        padding:0;
+        padding:0.5rem;
         margin:0;
+    }
+
+    .hide_small {
+        display:none;
     }
 
     .hover_preview {
