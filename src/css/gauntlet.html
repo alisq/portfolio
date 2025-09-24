@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+            * {
+                font-weight :100;
+                padding:0;
+                margin:0;
+                text-align:center;
+            }
+            @font-face {
+                font-family: "Juncture";
+                src: url('./JunctureVF.woff2') format('woff2');
+            }
+
+            body {
+                font-family:'Juncture';
+                padding:2rem;
+            }
+
+            h1 {
+                font-size:180px;
+                line-height:1;
+            }
+
+                h2 {
+                font-size:100px;
+                line-height:1;
+            }
+
+            @keyframes wacky  {
+                0% {font-variation-settings: "wght" 100 ; }
+                25% {font-variation-settings: "wght" 100; }
+                50% {font-variation-settings: "wght" 600; }
+                75% {font-variation-settings: "wght" 600; }
+                100% {font-variation-settings: "wght" 100 ;}
+            }
+
+
+                @keyframes wackyReverse  {
+                0% {font-variation-settings: "wght" 600 ; }
+                25% {font-variation-settings: "wght" 600; }
+                50% {font-variation-settings: "wght" 100; }
+                75% {font-variation-settings: "wght" 100; }
+                100% {font-variation-settings: "wght" 600 ;}
+            }
+
+
+                @keyframes clean  {
+                0% {font-variation-settings: "wght" 100 ; }
+                
+                50% {font-variation-settings: "wght" 600; }
+                
+                100% {font-variation-settings: "wght" 100 ;}
+            }
+
+
+                @keyframes cleanReverse  {
+                0% {font-variation-settings: "wght" 600 ; }
+                
+                50% {font-variation-settings: "wght" 100; }
+                
+                100% {font-variation-settings: "wght" 600 ;}
+            }
+
+            </style>
+    </head>
+    <body>
+        
+
+        <h1 style="animation-name: wacky; animation-duration: 3s; animation-iteration-count: 100;">Conistent Weight<h1>
+        
+        <h2 style="animation-name: clean; animation-duration: 6s; animation-iteration-count: 100;">ABCDEFGHIJKLMNOPQRSTUVWXYZ<h2>
+        <h2 style="animation-name: cleanReverse; animation-duration: 3s; animation-iteration-count: 100;">abcdefghijklmnopqrstuvwxyz<h2>
+            <h1 style="animation-name: wacky; animation-duration: 3s; animation-iteration-count: 100;">0 1 2 3 4 5 6 7 8 9<h1>
+            <h2 style="animation-name: cleanReverse; animation-duration: 6s; animation-iteration-count: 100;">.,:;…!¡?¿·•*#/\-–—_(){}[]‚„“”</h2>
+                <h2 style="animation-name: cleanReverse; animation-duration: 6s; animation-iteration-count: 100;">‘’«»‹›"'@&©®™″|$€£+−×÷=><%↑→↓←</h2>
+        <h1 style="animation-name: wackyReverse; animation-duration: 3s; animation-iteration-count: 100;">Inconsistent Output<h1>
+        <script src="" async defer></script>
+    </body>
+</html>
