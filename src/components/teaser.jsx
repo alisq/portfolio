@@ -31,8 +31,10 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
           className="hover_preview"
           style={{ top: coords.y, left: coords.x}}
         >
+
+          {console.log(pics[0].url)}
           {pics.length > 0 ? (
-            <img src={`https://alisq.github.io/portfolio/public/media/${pics[0].url}`} />
+            <img src={`https://alisq.github.io/portfolio/media/${pics[0].url}`} />
           ) : null}
         </div>
       )}
