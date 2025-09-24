@@ -1,183 +1,362 @@
 [
-    {
-        "title": "Juncture Variable", 
-        "id": "juncture", 
-        "year":2025, 
-        "media": "Typeface", 
-        "pics": [
-            {"url":"juncture/specimen.gif","desc":"","alt":"multiple weights as a typographic specimen"},    
-            {"url":"juncture/juncture_comp.gif","desc":"","alt":"animentated alphabet as weight oscillated"}
-                    
-                ], 
-        "desc": "<p>Inspired by midcentury industrial utopianism, eschewing the human hand for shapes that seek to maximize their own relationships to systematic production, Juncture is an attempt to create a font that looks like it was produced by a committee of tool and dye makers some time in the 1960s.  In its current form, Juncture is a variable font which ranges from a less-refined thin form and a more refined semi-bold. </p>",
-        "link": ""
-    },
-    {
-        "title": "There Are No Words", 
-        "id": "nowords", 
-        "year":2025, 
-        "media": "Title Sequence", 
-        "pics": [
-                    {"url":"/tanw/tanw-process.png", "desc":"","alt":"process document screenshot"},
-                    {"url":"/tanw/title.gif","desc":"","alt":"Opening Credit Sequence: there are no words fades in staggered on black"},
-                    {"url":"/tanw/end.gif","desc":"","alt":"end credits"}
-                ], 
-        "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
-        "link": ""
-    },
-    {
-        "title": "Zeitpunkt", 
-        "id": "zeitpunkt", 
-        "year":2025, 
-        "media": "Typeface", 
-        "pics": [
-                    {"url":"/zeitpunkt/waterfalls.png","desc":"","alt":"Sample words set in Zeitpunkt"},
-                    {"url":"/zeitpunkt/pages.png ","desc":"Original scan of Terrorism and Communism found on archive.org","alt":"Original scan of Terrorism and Communism found on archive.org"},
-                    {"url":"/zeitpunkt/specimen.png.001.png ","desc":"Zeitpunkt Characterset","alt":"Zeitpunkt Characterset"},        
-            
-                    
-                    
-                    {"url":"/zeitpunkt/engels.001.png","desc":"Test page from Conditions of the Working Class In England","alt":"Test page from Conditions of the Working Class In England"}
-
- 
-
-                ],  
-        "desc": "<p>Zeitpunkt is an idiosyncratic revival of Lateinisch, designed for the Berthold Type Foundry by the Vienna Secession artist Peter Schnorr.  Originally discovered in a number of socialist pamphlets printed in Berlin around the the 1920s, I believe the source font was originally used as a transition from Fakturs to Antiquas at the time.</p>",
-        "link": ""
-    },
-    {
-        "title": "AAHA Superstudio", 
-        "id": "aahasuperstudio", 
-        "year":2025, 
-        "media": "Website", 
-        "pics": [
-                    {"url":"/aahasuperstudio/cover.png","desc":"Desktop verion of the fron page for the AAHA Superstudio site","alt":""}
-                ],  
-        "desc": "<p>Website design and development for the superstudio spanning 15+ architectural courses across Canada devoted to ending housing alienation.</p>",
-        "link": "https://superstudio.aaha.ca"
-    },
-    {
-        "title": "AAHA: Not for Sale!", 
-        "id": "aahanfs", 
-        "year":2023, 
-        "media": "Website", 
-        "pics": [
-                    {"url":"/aahanfs/cover.png","desc":"Desktop verion of the fron page for the AAHA Not For Sale site","alt":""}
-                ],  
-        "desc": "<p>Website design and development for the Canadian entry into the 2023 Venice Architecture Biennale. I also had the opportunity to work closely on the plan and development of the project as a campaign collaborator and member of the Toronto collective, Gentrification Tax Action.</p>",
-        "link": "https://aaha.ca"
-    },
-    {
-        "title": "OCADFA", 
-        "id": "ocadfa", 
-        "year":2020, 
-        "media": "Identity, Campaign Materials", 
-        "pics": [
-                    {"url":"/ocadfa/ocadfa-flag.jpg", "desc":"Waving flag with revised OCADFA Logo","alt":"Waving flag with revised OCADFA Logo"}
-                ],  
-        "desc": "<p>As a personal service to the best part of my institution, I've spent the past few years passively rebranding our faculty union to feel more militant and exciting.</p>",
-        "link": ""
-    },
-    {
-        "title": "Travellers of the World Revolution", 
-        "id": "totw", 
-        "year":2023, 
-        "media": "Book Cover", 
-        "pics": [
-                    {"url":"/totw/travellers.jpg", "desc":"complete dust jacket for Travellers of the World Revolution","alt":"complete dust jacket for Travellers of the World Revolution"},
-                    {"url":"/totw/additionals.jpg","desc":"Additional Cover Sketches","alt":"Additional Cover Sketches"}
-                ],  
-        "desc": "<p>Book cover for Brigitte Studer’s comphrensive history of the Third International, released in 2023 on Verso Books</p>",
-        "link": "https://www.versobooks.com/en-gb/products/2938-travellers-of-the-world-revolution"
-    },
+  {
+    "title": "Juncture Variable",
+    "id": "juncture",
+    "year": 2025,
+    "media": "Typeface",
+    "pics": [
       {
-        "title": "Aftertext Vol. 01", 
-        "id": "aftertexts", 
-        "year":2025, 
-        "media": "Book", 
-        "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
-                ],  
-        "desc": "<p>Design and art direction for </p>",
-        "link": ""
-    },
-    {
-        "title": "Art Metropole — Fundraising Campaign", 
-        "id": "art_met", 
-        "year":2024, 
-        "media": "Invitation, Catalog, Social Media Campaign ", 
-        "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
-                ],  
-        "desc": "<p>Variouis print and digital assets for the 50th anniversary fundraiser party for Art Metrpole, a Toronto-based, non-profit artist-run centre  and bookstore established 1974.</p>",
-        "link": ""
-    },
-    {
-        "title": "Shot in a Mirror", 
-        "id": "sotm", 
-        "year":2022, 
-        "media": "Book", 
-        "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
-                ],  
-        "desc": "<p>Book design and art direction for Don Pyle’s second photography book, cataloging images of friends from his 40+ year history in the arts and music scenes in Toronto and beyond.</p>",
-        "link": ""
-    },
-    {
-        "title": "this is not an archive", 
-        "id": "thisisnotanarchive", 
-        "year":2022, 
-        "media": "Experimental Website, Font", 
-        "pics": [
-                    {"url":"coverpage.jpg","desc":"Opening page with mycillial growth pattern ","alt":"Opening page with mycillial growth pattern"},
-                    {"url":"interior.jpg","desc":"Interior page","alt":"Interior page"}
-                ],  
-        "desc": "<p>\"The first chapter of an iterative digital release produced by the Toronto Biennial of Art (TBA). Bringing together the voices and process-based methodologies of past and present contributors to TBA Programs, this publication traces the ever-changing networks of relationships between practices, ideas, and questions brought forward by esteemed contributors, while also offering you as a reader a space to create new connections among the contents with downloadable and printable options.\"</p><p> Website, mycelial growth pattern, interactive mapping application, and parametric typeface all developed in collaboration with Chris Lee.</p>",
-        "link": "https://thisisnotanarchive.ca"
-    },
-    {
-        "title": "Living With War", 
-        "id": "lww", 
-        "year":2018, 
-        "media": "Book Cover", 
-        "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
-                ],  
-        "desc": "<p>Book cover design for Rob Teigrob’s book, Living with War, for UofT Press. Hardcover and clothbound editions.</p>",
-        "link": ""
-    },
-    {
-        "title": "Moving Image Culture Etc.", 
-        "id": "mice", 
-        "year":2022, 
-        "media": "Website, Identity", 
-        "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
-                ],  
-        "desc": "<p>Design and development for MICE (print and web). an online periodical devoted to critical writing and artists’ projects about and within moving image culture. It is published twice annually in Toronto, but its focus is international. As the scope of the project grew beyond moving images, the identity was designed to accommodate multiple acronyms.</p>",
-        "link": ""
-    },
-
-    {
-        "title": "Various Posters and Print ephemera", 
-        "id": "various", 
-        "year":2022, 
-        "media": "Mostly Print", 
-        "pics": [
-                    
-                    {"url":"/various/wta.jpg", "desc":"When They Awake poster proof","alt":""},
-                    {"url":"/various/AI-0.jpg", "desc":"Angry Inuk poster proof","alt":""},
-                    {"url":"/various/AI-1.jpg", "desc":"Angry Inuk poster proof","alt":""},
-                    {"url":"/various/graphic-content.jpg", "desc":"Graphic Content poster proof","alt":""},
-                    {"url":"/various/tl.jpg", "desc":"Tanya Libre poster proof","alt":"Tanya Libre poster proof"},
-                    {"url":"/various/vector2019.jpg", "desc":"Vector Fest 2019 Front Proof","alt":"Vector Fest 2019 Front Proof"},
-                    {"url":"/various/vector2019b.jpg", "desc":"Vector Fest 2019 Back Proof","alt":"Vector Fest 2019 Back Proof"},
-                    {"url":"/various/vf2018-0.jpg", "desc":"Vector Fest 2018 Front Proof","alt":"Vector Fest 2018 Front Proof"},
-                    {"url":"/various/vf2018-1.jpg", "desc":"Vector Fest 2018 Back Proof","alt":"Vector Fest 2018 Back Proof"}
-                ],  
-        "desc": "<p> </p>",
-        "link": ""
-    }
+        "url": "juncture/specimen.gif",
+        "desc": "",
+        "alt": "multiple weights as a typographic specimen"
+      },
+      {
+        "url": "juncture/juncture_comp.gif",
+        "desc": "",
+        "alt": "animentated alphabet as weight oscillated"
+      }
+    ],
+    "desc": "<p>Juncture is an in-progess typeface, inspired by midcentury industrial utopianism.  Eschewing the human hand for shapes that seek to maximize their own relationships to systematic production, Juncture is an attempt to create a font that looks like it was produced by a committee of tool and dye makers some time in the 1960s.  In its current form, Juncture is a variable font which ranges from a less-refined thin form and a more refined semi-bold. </p>",
+    "link": ""
+  },
+  {
+    "title": "There Are No Words",
+    "id": "nowords",
+    "year": 2025,
+    "media": "Title Sequence",
+    "pics": [
+      {
+        "url": "/tanw/tanw-process.png",
+        "desc": "",
+        "alt": "process document screenshot"
+      },
+      {
+        "url": "/tanw/title.gif",
+        "desc": "",
+        "alt": "Opening Credit Sequence: there are no words fades in staggered on black"
+      },
+      {
+        "url": "/tanw/end.gif",
+        "desc": "",
+        "alt": "end credits"
+      }
+    ],
+    "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
+    "link": ""
+  },
+  {
+    "title": "Zeitpunkt",
+    "id": "zeitpunkt",
+    "year": 2025,
+    "media": "Typeface",
+    "pics": [
+      {
+        "url": "/zeitpunkt/waterfalls.png",
+        "desc": "",
+        "alt": "Sample words set in Zeitpunkt"
+      },
+      {
+        "url": "/zeitpunkt/pages.png ",
+        "desc": "Original scan of Terrorism and Communism found on archive.org",
+        "alt": "Original scan of Terrorism and Communism found on archive.org"
+      },
+      {
+        "url": "/zeitpunkt/specimen.png.001.png ",
+        "desc": "Zeitpunkt Characterset",
+        "alt": "Zeitpunkt Characterset"
+      },
+      {
+        "url": "/zeitpunkt/engels.001.png",
+        "desc": "Test page from Conditions of the Working Class In England",
+        "alt": "Test page from Conditions of the Working Class In England"
+      }
+    ],
+    "desc": "<p>Zeitpunkt is an idiosyncratic revival of <u>Lateinisch</u>, designed for the Berthold Type Foundry by the Vienna Secession artist Peter Schnorr.  Originally discovered in a number of socialist pamphlets printed in Berlin around the the 1920s, I believe the source font was originally used as a transition from Fakturs to Antiquas at the time.</p>",
+    "link": ""
+  },
+  {
+    "title": "AAHA Superstudio",
+    "id": "aahasuperstudio",
+    "year": 2025,
+    "media": "Website",
+    "pics": [
+      {
+        "url": "/aahasuperstudio/cover.png",
+        "desc": "Desktop verion of the fron page for the AAHA Superstudio site",
+        "alt": ""
+      }
+    ],
+    "desc": "<p>Website design and development for the superstudio spanning 15+ architectural courses across Canada devoted to ending housing alienation.</p>",
+    "link": "https://superstudio.aaha.ca"
+  },
+  {
+    "title": "AAHA: Not for Sale!",
+    "id": "aahanfs",
+    "year": 2023,
+    "media": "Website",
+    "pics": [
+      {
+        "url": "/aahanfs/cover.png",
+        "desc": "Desktop verion of the fron page for the AAHA Not For Sale site",
+        "alt": ""
+      }
+    ],
+    "desc": "<p>Website design and development for the Canadian entry into the 2023 Venice Architecture Biennale. I also had the opportunity to work closely on the plan and development of the project as a campaign collaborator and member of the Toronto collective, Gentrification Tax Action.</p>",
+    "link": "https://aaha.ca"
+  },
+  {
+    "title": "OCADFA",
+    "id": "ocadfa",
+    "year": 2020,
+    "media": "Identity, Campaign Materials",
+    "pics": [
+      {
+        "url": "/ocadfa/ocadfa-flag.jpg",
+        "desc": "Waving flag with revised OCADFA Logo",
+        "alt": "Waving flag with revised OCADFA Logo"
+      }
+    ],
+    "desc": "<p>As a personal service to the best part of my institution, I've spent the past few years passively rebranding our faculty union to feel more militant and exciting.</p>",
+    "link": ""
+  },
+  {
+    "title": "Travellers of the World Revolution",
+    "id": "totw",
+    "year": 2023,
+    "media": "Book Cover",
+    "pics": [
+      {
+        "url": "/totw/travellers.jpg",
+        "desc": "complete dust jacket for Travellers of the World Revolution",
+        "alt": "complete dust jacket for Travellers of the World Revolution"
+      },
+      {
+        "url": "/totw/additionals.jpg",
+        "desc": "Additional Cover Sketches",
+        "alt": "Additional Cover Sketches"
+      }
+    ],
+    "desc": "<p>Book cover for Brigitte Studer’s comphrensive history of the Third International, released in 2023 on Verso Books</p>",
+    "link": "https://www.versobooks.com/en-gb/products/2938-travellers-of-the-world-revolution"
+  },
+  {
+    "title": "Aftertext Vol. 01",
+    "id": "aftertexts",
+    "year": 2025,
+    "media": "Book",
+    "pics": [
+      {
+        "url": "/aftertext/cover.jpg",
+        "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Front and Back Cover",
+        "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Front and Back Cover"
+      },
+      {
+        "url": "/aftertext/interior-7.jpg",
+        "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
+        "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
+      },
+      {
+        "url": "/aftertext/interior-11.jpg",
+        "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
+        "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
+      },
+      {
+        "url": "/aftertext/interior-19.jpg",
+        "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
+        "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
+      },
+      {
+        "url": "/aftertext/interior-23.jpg",
+        "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
+        "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
+      }
+    ],
+    "desc": "<p>Design and art direction for the innagural monograph of Azadeh Elmizadeh</p>",
+    "link": ""
+  },
+  {
+    "title": "Art Metropole",
+    "id": "artmet",
+    "year": 2024,
+    "media": "Various",
+    "pics": [
+      {
+        "url": "/artmet/AM-03.jpg",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/50years.png",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/51years.png",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/card-0.jpg",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/card-1.jpg",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/postcard-0.jpg",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/postcard-1.jpg",
+        "desc": "",
+        "alt": ""
+      },
+      {
+        "url": "/artmet/postcard-2.jpg",
+        "desc": "",
+        "alt": ""
+      }
+    ],
+    "desc": "<p>Variouis print and digital assets for Art Metrpole, a Toronto-based, non-profit artist-run centre and bookstore established 1974. </p>",
+    "link": ""
+  },
+  {
+    "title": "Shot in a Mirror",
+    "id": "sotm",
+    "year": 2022,
+    "media": "Book",
+    "pics": [
+      {
+        "url": "/soam/SOAM-4.jpg",
+        "desc": "Shot In A Mirror — Cover Proof",
+        "alt": "Shot In A Mirror — Cover Proof"
+      },
+      {
+        "url": "/soam/int3.png",
+        "desc": "Shot In A Mirror — Don Pyle Interior Page Proof",
+        "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
+      },
+      {
+        "url": "/soam/int1.png",
+        "desc": "Shot In A Mirror — Don Pyle Interior Page Proof",
+        "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
+      },
+      {
+        "url": "/soam/int2.png",
+        "desc": "Shot In A Mirror — Don Pyle Interior Page Proof",
+        "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
+      }
+    ],
+    "desc": "<p>Book design and art direction for Don Pyle’s second photography book, cataloging images of friends from his 40+ year history in the arts and music scenes in Toronto and beyond.</p>",
+    "link": ""
+  },
+  {
+    "title": "this is not an archive",
+    "id": "thisisnotanarchive",
+    "year": 2022,
+    "media": "Experimental Website, Font",
+    "pics": [
+      {
+        "url": "/thisisnotanarchive/coverpage.jpg",
+        "desc": "Opening page with mycillial growth pattern ",
+        "alt": "Opening page with mycillial growth pattern"
+      },
+      {
+        "url": "/thisisnotanarchive/interior.jpg",
+        "desc": "Interior page",
+        "alt": "Interior page"
+      }
+    ],
+    "desc": "<p>\"The first chapter of an iterative digital release produced by the Toronto Biennial of Art (TBA). Bringing together the voices and process-based methodologies of past and present contributors to TBA Programs, this publication traces the ever-changing networks of relationships between practices, ideas, and questions brought forward by esteemed contributors, while also offering you as a reader a space to create new connections among the contents with downloadable and printable options.\"</p><p> Website, mycelial growth pattern, interactive mapping application, and parametric typeface all developed in collaboration with Chris Lee.</p>",
+    "link": "https://thisisnotanarchive.ca"
+  },
+  {
+    "title": "Moving Image Culture Etc.",
+    "id": "mice",
+    "year": 2022,
+    "media": "Website, Identity",
+    "pics": [
+      {
+        "url": "/mice/mice.gif",
+        "desc": "Active logo for MICE Magazine",
+        "alt": "Active logo for MICE Magazine"
+      },
+      {
+        "url": "/mice/i4.png",
+        "desc": "Cover Page for MICE Issue 04",
+        "alt": "Cover Page for MICE Issue 04"
+      },
+      {
+        "url": "/mice/i3.png",
+        "desc": "Cover Page for MICE Issue 04",
+        "alt": "Cover Page for MICE Issue 03"
+      },
+      {
+        "url": "/mice/i1.png",
+        "desc": "Cover Page for MICE Issue 04",
+        "alt": "Cover Page for MICE Issue 01"
+      }
+    ],
+    "desc": "<p>Design and development for MICE (print and web). an online periodical devoted to critical writing and artists’ projects about and within moving image culture. It is published twice annually in Toronto, but its focus is international. As the scope of the project grew beyond moving images, the identity was designed to accommodate multiple acronyms.</p>",
+    "link": ""
+  },
+  {
+    "title": "Various Posters and Print ephemera",
+    "id": "various",
+    "year": 2022,
+    "media": "Mostly Print",
+    "pics": [
+      {
+        "url": "/various/wta.jpg",
+        "desc": "When They Awake poster proof",
+        "alt": ""
+      },
+      {
+        "url": "/various/AI-0.jpg",
+        "desc": "Angry Inuk poster proof",
+        "alt": ""
+      },
+      {
+        "url": "/various/AI-1.jpg",
+        "desc": "Angry Inuk poster proof",
+        "alt": ""
+      },
+      {
+        "url": "/various/graphic-content.jpg",
+        "desc": "Graphic Content poster proof",
+        "alt": ""
+      },
+      {
+        "url": "/various/tl.jpg",
+        "desc": "Tanya Libre poster proof",
+        "alt": "Tanya Libre poster proof"
+      },
+      {
+        "url": "/various/vector2019.jpg",
+        "desc": "Vector Fest 2019 Front Proof",
+        "alt": "Vector Fest 2019 Front Proof"
+      },
+      {
+        "url": "/various/vector2019b.jpg",
+        "desc": "Vector Fest 2019 Back Proof",
+        "alt": "Vector Fest 2019 Back Proof"
+      },
+      {
+        "url": "/various/vf2018-0.jpg",
+        "desc": "Vector Fest 2018 Front Proof",
+        "alt": "Vector Fest 2018 Front Proof"
+      },
+      {
+        "url": "/various/vf2018-1.jpg",
+        "desc": "Vector Fest 2018 Back Proof",
+        "alt": "Vector Fest 2018 Back Proof"
+      }
+    ],
+    "desc": "<p>Various leavings from recent years. Most of these are digital proofs of risograph prints.</p>",
+    "link": ""
+  }
 ]
-
-

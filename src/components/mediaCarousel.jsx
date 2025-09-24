@@ -38,11 +38,14 @@ function MediaCarousel({ pics = [], flickityOptions = {} }) {
       static
     >
       {pics.map((pic, i) => (
+        <div className="slide">
         <img
           key={i}
           src={`https://alisq.github.io/portfolio/media/${pic.url}`}
           alt={pic.alt || `Artwork image ${i + 1}`}
         />
+        <p className="caption">{pic.desc}</p>
+        </div>
       ))}
     </Flickity>
 

@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "compile-sass": "sass src/sass/main.scss src/css/app.css -w",
-    "predeploy": "rm -rf docs && npm run build && mv build docs",
+    "predeploy": "rm -rf docs && npm run build && mv build docs && cp docs/index.html docs/404.html",
     "deploy": "git add docs && git commit -m 'update docs' && git push",
     "doitall": "npm run predeploy && npm run deploy"
   },

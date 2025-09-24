@@ -32,7 +32,7 @@ function App() {
               <h1><span className="dg">ali.shamas.qadeer@gmail.com</span></h1>
             </td>
             <td>
-              <h1 className="right"><span className="zp"></span></h1>
+              <h1><span className="sem">All fonts on this site designed by yours truly.</span></h1>
               </td>
           </tr>
         </table>
