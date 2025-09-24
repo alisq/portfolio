@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a43c7807.css",
-    "main.js": "/portfolio/static/js/main.adb451c6.js",
+    "main.css": "/portfolio/static/css/main.6d5a339c.css",
+    "main.js": "/portfolio/static/js/main.08653357.js",
     "static/js/633.5470952f.chunk.js": "/portfolio/static/js/633.5470952f.chunk.js",
     "static/js/453.a33d50b3.chunk.js": "/portfolio/static/js/453.a33d50b3.chunk.js",
     "static/media/Zeitpunkt-Light.woff2": "/portfolio/static/media/Zeitpunkt-Light.6f345b30391873a97a7c.woff2",
@@ -9,13 +9,13 @@
     "static/media/DotgridVF.woff2": "/portfolio/static/media/DotgridVF.1150f415d755a48e6f71.woff2",
     "static/media/SuperEllipseMonoSansVF.woff2": "/portfolio/static/media/SuperEllipseMonoSansVF.b7518f7efd45f591c8ab.woff2",
     "index.html": "/portfolio/index.html",
-    "main.a43c7807.css.map": "/portfolio/static/css/main.a43c7807.css.map",
-    "main.adb451c6.js.map": "/portfolio/static/js/main.adb451c6.js.map",
+    "main.6d5a339c.css.map": "/portfolio/static/css/main.6d5a339c.css.map",
+    "main.08653357.js.map": "/portfolio/static/js/main.08653357.js.map",
     "633.5470952f.chunk.js.map": "/portfolio/static/js/633.5470952f.chunk.js.map",
     "453.a33d50b3.chunk.js.map": "/portfolio/static/js/453.a33d50b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a43c7807.css",
-    "static/js/main.adb451c6.js"
+    "static/css/main.6d5a339c.css",
+    "static/js/main.08653357.js"
   ]
 }
