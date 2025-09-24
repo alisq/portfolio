@@ -231,22 +231,30 @@ table {
 
 @media (max-width:1000px) {
 
-    header, footer {
-    display:block;
-    padding:0;
+    footer {
+        display:block;
+        padding:0;
+    }
 
-    & h1 {
+    header, footer {
+
+        & h1 {
         text-align:center;
         font-size:30px;
-        padding:0.25rem;
+        padding:0.25rem 0.25rem 2rem 0.25rem;
     }
+
 
     & h1:nth-child(2) {
         text-align:center;
     }
 
+    }
 
-}
+    
+
+
+
 
 
 table {

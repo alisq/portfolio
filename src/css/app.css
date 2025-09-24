@@ -194,14 +194,14 @@ table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnai
 }
 
 @media (max-width: 1000px) {
-  header, footer {
+  footer {
     display: block;
     padding: 0;
   }
   header h1, footer h1 {
     text-align: center;
     font-size: 30px;
-    padding: 0.25rem;
+    padding: 0.25rem 0.25rem 2rem 0.25rem;
   }
   header h1:nth-child(2), footer h1:nth-child(2) {
     text-align: center;
