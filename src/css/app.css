@@ -80,6 +80,7 @@ h1 {
 
 .thumb {
   max-height: 150px;
+  transition: max-height 0.15s;
 }
 
 table {
@@ -92,14 +93,23 @@ table tr.teaser_row td {
   padding: 1em;
   transition: all 0.15s;
 }
+table tr.teaser_row td .thumbnail {
+  max-height: 100px;
+}
 table tr.rule td {
   padding: 0;
   border-bottom: 1px solid #000;
 }
-table tr.teaser_row:hover td {
+table tr.teaser_row:hover td, table tr.teaser_row.active td {
   color: white;
   background: black;
   padding: 2em 1em;
+}
+table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnail {
+  max-height: 150px;
+}
+.active table tr.teaser_row:hover td .thumbnail, .active table tr.teaser_row.active td .thumbnail {
+  max-height: 100px;
 }
 
 .slide {

@@ -84,7 +84,8 @@ h1 {
 
 
 .thumb {
-    max-height:150px
+    max-height:150px;
+    transition:max-height 0.15s;
 }
 table {
     margin:1em;
@@ -96,6 +97,10 @@ table {
         
         padding:1em;
         transition: all 0.15s;
+
+        & .thumbnail {
+            max-height:100px;
+        }
         
     }
 
@@ -104,11 +109,22 @@ table {
         border-bottom:1px solid #000;
     }
 
-    & tr.teaser_row:hover td{
+    & tr.teaser_row:hover td,
+    & tr.teaser_row.active td  {
         color:white;
         background:black;
         padding :2em 1em;
         
+
+             & .thumbnail {
+                max-height:150px;
+
+                .active & {
+                    max-height:100px;
+                }
+            }
+        
+
         // &.title_cell {
         //     font-size:1.2em;
         // }

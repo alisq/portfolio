@@ -38,19 +38,11 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
         <td className="title_cell"><strong>{title}</strong></td>
         <td>{year}</td>
         <td>{media}</td>
+        <td><img className="thumbnail" src={`https://alisq.github.io/portfolio/media/${pics[0].url}`} /></td>
         <td><div className="close">&times;</div></td>
       </tr>
 
-      {isHovered && (
-        <div
-          className="hover_preview"
-          style={{ top: coords.y, left: coords.x }}
-        >
-          {pics.length > 0 ? (
-            <img src={`https://alisq.github.io/portfolio/media/${pics[0].url}`} />
-          ) : null}
-        </div>
-      )}
+
 
       <tr className={`hidden_content ${isOpen ? "active" : ""}`}>
         <td colSpan="10">
@@ -59,7 +51,7 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
               {parse(desc)}
               {link !== "" && (
                 <p>
-                  <br />
+                  
                   <a
                     className="link"
                     href={link}
