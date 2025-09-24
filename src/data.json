@@ -11,7 +11,7 @@
         "alt": "multiple weights as a typographic specimen"
       },
       {
-        "url": "juncture/juncture_comp.gif",
+        "url": "juncture/juncture.gif",
         "desc": "",
         "alt": "animentated alphabet as weight oscillated"
       }
@@ -27,17 +27,17 @@
     "pics": [
       {
         "url": "/tanw/tanw-process.png",
-        "desc": "",
+        "desc": "Process document of possible opening credits/title treatments.",
         "alt": "process document screenshot"
       },
       {
         "url": "/tanw/title.gif",
-        "desc": "",
+        "desc": "Opening credit typographic treatment",
         "alt": "Opening Credit Sequence: there are no words fades in staggered on black"
       },
       {
         "url": "/tanw/end.gif",
-        "desc": "",
+        "desc": "Closing credit typographic treatment.",
         "alt": "end credits"
       }
     ],
