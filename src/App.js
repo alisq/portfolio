@@ -29,7 +29,7 @@ function App() {
                 <table className="noBorder">
           <tr>
             <td>
-              <h1>ali.shamas.qadeer@gmail.com</h1>
+              <h1><span className="dg">ali.shamas.qadeer@gmail.com</span></h1>
             </td>
             <td>
               <h1 className="right"><span className="zp"></span></h1>

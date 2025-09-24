@@ -129,7 +129,8 @@
         "year":2022, 
         "media": "Experimental Website, Font", 
         "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
+                    {"url":"coverpage.jpg","desc":"Opening page with mycillial growth pattern ","alt":"Opening page with mycillial growth pattern"},
+                    {"url":"interior.jpg","desc":"Interior page","alt":"Interior page"}
                 ],  
         "desc": "<p>\"The first chapter of an iterative digital release produced by the Toronto Biennial of Art (TBA). Bringing together the voices and process-based methodologies of past and present contributors to TBA Programs, this publication traces the ever-changing networks of relationships between practices, ideas, and questions brought forward by esteemed contributors, while also offering you as a reader a space to create new connections among the contents with downloadable and printable options.\"</p><p> Website, mycelial growth pattern, interactive mapping application, and parametric typeface all developed in collaboration with Chris Lee.</p>",
         "link": "https://thisisnotanarchive.ca"
@@ -143,17 +144,6 @@
                     {"url":"test.png","desc":"","alt":"foo!"}
                 ],  
         "desc": "<p>Book cover design for Rob Teigrob’s book, Living with War, for UofT Press. Hardcover and clothbound editions.</p>",
-        "link": ""
-    },
-      {
-        "title": "O Fallen Angel", 
-        "id": "ofa", 
-        "year":2017, 
-        "media": "Book Cover", 
-        "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
-                ],  
-        "desc": "<p>Book cover design for Kate Zambrenos’s book, Living with War, for UofT Press. Paperback reprint bia Harper Perennial.</p>",
         "link": ""
     },
     {
@@ -174,9 +164,20 @@
         "year":2022, 
         "media": "Mostly Print", 
         "pics": [
-                    {"url":"test.png","desc":"","alt":"foo!"}
+                    
+                    {"url":"/various/wta.jpg", "desc":"When They Awake poster proof","alt":""},
+                    {"url":"/various/AI-0.jpg", "desc":"Angry Inuk poster proof","alt":""},
+                    {"url":"/various/AI-1.jpg", "desc":"Angry Inuk poster proof","alt":""},
+                    {"url":"/various/graphic-content.jpg", "desc":"Graphic Content poster proof","alt":""},
+                    {"url":"/various/tl.jpg", "desc":"Tanya Libre poster proof","alt":"Tanya Libre poster proof"},
+                    {"url":"/various/vector2019.jpg", "desc":"Vector Fest 2019 Front Proof","alt":"Vector Fest 2019 Front Proof"},
+                    {"url":"/various/vector2019b.jpg", "desc":"Vector Fest 2019 Back Proof","alt":"Vector Fest 2019 Back Proof"},
+                    {"url":"/various/vf2018-0.jpg", "desc":"Vector Fest 2018 Front Proof","alt":"Vector Fest 2018 Front Proof"},
+                    {"url":"/various/vf2018-1.jpg", "desc":"Vector Fest 2018 Back Proof","alt":"Vector Fest 2018 Back Proof"}
                 ],  
         "desc": "<p> </p>",
         "link": ""
     }
 ]
+
+

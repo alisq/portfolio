@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "compile-sass": "sass src/sass/main.scss src/css/app.css -w",
     "predeploy": "rm -rf docs && npm run build && mv build docs",
-    "deploy": "git add docs && git commit -m 'update docs' && git push"
+    "deploy": "git add docs && git commit -m 'update docs' && git push",
+    "doitall": "npm run predeploy && npm run deploy"
   },
   "eslintConfig": {
     "extends": [
