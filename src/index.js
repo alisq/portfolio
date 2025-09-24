@@ -4,6 +4,12 @@ import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from "react-ga4";
+
+
+const TRACKING_ID = "G-3E3MNG7X0Q"; // or G-XXXX if GA4 + react-ga4
+ReactGA.initialize(TRACKING_ID);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

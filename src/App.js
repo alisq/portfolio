@@ -1,13 +1,22 @@
 
 import './css/app.css';
 import TeaserList from './components/teaserList'
+import { useEffect } from 'react';
+import { Routes, Route,useLocation } from "react-router-dom";
 
-import { Routes, Route } from "react-router-dom";
+import ReactGA from "react-ga4";
 
 
 
 function App() {
+   const location = useLocation();
 
+  useEffect(() => {
+    ReactGA.send({ 
+      hitType: "pageview", 
+      page: location.pathname + location.search 
+    });
+  }, [location]);
 
 
   return (
