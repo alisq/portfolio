@@ -3,7 +3,7 @@
     "title": "Juncture Variable",
     "id": "juncture",
     "year": 2025,
-    "media": "Typeface",
+    "media": ["Type Design"],
     "pics": [
       {
         "url": "juncture/specimen.gif",
@@ -23,7 +23,7 @@
     "title": "There Are No Words",
     "id": "nowords",
     "year": 2025,
-    "media": "Title Sequence",
+    "media": ["Motion"],
     "pics": [
       {
         "url": "/tanw/tanw-process.png",
@@ -48,7 +48,7 @@
     "title": "Zeitpunkt",
     "id": "zeitpunkt",
     "year": 2025,
-    "media": "Typeface",
+    "media": ["Type Design"],
     "pics": [
       {
         "url": "/zeitpunkt/waterfalls.png",
@@ -78,7 +78,7 @@
     "title": "AAHA Superstudio",
     "id": "aahasuperstudio",
     "year": 2025,
-    "media": "Website",
+    "media": ["Web"],
     "pics": [
       {
         "url": "/aahasuperstudio/cover.png",
@@ -93,7 +93,7 @@
     "title": "AAHA: Not for Sale!",
     "id": "aahanfs",
     "year": 2023,
-    "media": "Website",
+    "media": ["Web"],
     "pics": [
       {
         "url": "/aahanfs/cover.png",
@@ -108,7 +108,7 @@
     "title": "OCADFA",
     "id": "ocadfa",
     "year": 2020,
-    "media": "Identity, Campaign Materials",
+    "media": ["Identity", "Campaign Materials", "Ephemera", "Web", "Poster"],
     "pics": [
       
         {
@@ -135,7 +135,7 @@
     "title": "Travellers of the World Revolution",
     "id": "totw",
     "year": 2023,
-    "media": "Book Cover",
+    "media": ["Book"],
     "pics": [
       {
         "url": "/totw/travellers.jpg",
@@ -155,7 +155,7 @@
     "title": "Aftertext Vol. 01",
     "id": "aftertexts",
     "year": 2025,
-    "media": "Book",
+    "media": ["Book"],
     "pics": [
       {
         "url": "/aftertext/cover.jpg",
@@ -190,7 +190,7 @@
     "title": "Art Metropole",
     "id": "artmet",
     "year": 2024,
-    "media": "Various",
+    "media": ["Campaign Design", "Identity"],
     "pics": [
       {
         "url": "/artmet/AM-03.jpg",
@@ -233,14 +233,14 @@
         "alt": ""
       }
     ],
-    "desc": "<p>Variouis print and digital assets for Art Metrpole, a Toronto-based, non-profit artist-run centre and bookstore established 1974. </p>",
+    "desc": "<p>Various print and digital assets for Art Metrpole, a Toronto-based, non-profit artist-run centre and bookstore established 1974. </p>",
     "link": ""
   },
   {
     "title": "Shot in a Mirror",
     "id": "sotm",
     "year": 2022,
-    "media": "Book",
+    "media": ["Book"],
     "pics": [
       {
         "url": "/soam/SOAM-4.jpg",
@@ -270,7 +270,7 @@
     "title": "this is not an archive",
     "id": "thisisnotanarchive",
     "year": 2022,
-    "media": "Experimental Website, Font",
+    "media": ["Web", "Type Design"],
     "pics": [
       {
         "url": "/thisisnotanarchive/coverpage.jpg",
@@ -290,7 +290,7 @@
     "title": "Moving Image Culture Etc.",
     "id": "mice",
     "year": 2022,
-    "media": "Website, Identity",
+    "media": ["Web", "Identity"],
     "pics": [
       {
         "url": "/mice/mice.gif",
@@ -320,7 +320,7 @@
     "title": "Various Posters and Print ephemera",
     "id": "various",
     "year": 2022,
-    "media": "Mostly Print",
+    "media": ["Posters"],
     "pics": [
       {
         "url": "/various/wta.jpg",

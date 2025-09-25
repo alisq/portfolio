@@ -37,7 +37,7 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
       >
         <td className="title_cell"><strong>{title}</strong></td>
         <td>{year}</td>
-        <td>{media}</td>
+        <td>{media.join(", ")}</td>
         <td className="hide_small"><img className="thumbnail" src={`https://alisq.github.io/portfolio/media/${pics[0].url}`} /></td>
         <td><div className="close">&times;</div></td>
       </tr>
