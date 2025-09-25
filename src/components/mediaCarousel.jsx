@@ -14,54 +14,47 @@ const defaultFlickityOptions = {
 function MediaCarousel({ pics = [], flickityOptions = {} }) {
   const options = { ...defaultFlickityOptions, ...flickityOptions };
 
- 
-  return (pics.length == 1) ? (
-    
-       <div className="single-image">
-      
-        <img
-          
-          src={`https://alisq.github.io/portfolio/media/${pics[0].url}`}
-          alt={pics[0].alt}
-        />
-    </div>
-    
-  ) : (
-  <>
-    {/* Flickity version (for wide screens) */}
-    <Flickity
-      className={"carousel big-carousel"}
-      elementType={"div"}
-      options={options}
-      disableImagesLoaded
-      reloadOnUpdate
-      static
-    >
-      {pics.map((pic, i) => (
-        <div className="slide">
-        <img
-          key={i}
-          src={`https://alisq.github.io/portfolio/media/${pic.url}`}
-          alt={pic.alt || `Artwork image ${i + 1}`}
-        />
-        <p className="caption">{pic.desc}</p>
-        </div>
-      ))}
-    </Flickity>
+  return (
+    <>
+      <Flickity
+        className={"carousel big-carousel"}
+        elementType={"div"}
+        options={options}
+        disableImagesLoaded
+        reloadOnUpdate
+        static
+      >
+        {pics.map((pic, i) => (
+          <div className="slide" key={i}>
+            {/\.(jpg|jpeg|png|gif|webp|bmp|svg)$/i.test(pic.url) ? (
+              <img
+                src={`https://alisq.github.io/portfolio/media/${pic.url}`}
+                alt={pic.alt || `Artwork image ${i + 1}`}
+              />
+            ) : /\.(mp4|webm|ogg)$/i.test(pic.url) ? (
+              <video
+                controls
+                src={`https://alisq.github.io/portfolio/media/${pic.url}`}
+                alt={pic.alt || `Artwork video ${i + 1}`}
+                style={{ maxWidth: "100%" }}
+              />
+            ) : null}
+            <p className="caption">{pic.desc}</p>
+          </div>
+        ))}
+      </Flickity>
 
-    {/* Simple inline version (for small screens) */}
-    <div className="small-carousel">
-      {pics.map((pic, i) => (
-        <img
-          key={i}
-          src={`https://alisq.github.io/portfolio/media/${pic.url}`}
-          alt={pic.alt || `Artwork image ${i + 1}`}
-        />
-      ))}
-    </div>
-  </>
-);
-
+      {/* Simple inline version (for small screens) */}
+      <div className="small-carousel">
+        {pics.map((pic, i) => (
+          <img
+            key={i}
+            src={`https://alisq.github.io/portfolio/media/${pic.url}`}
+            alt={pic.alt || `Artwork image ${i + 1}`}
+          />
+        ))}
+      </div>
+    </>
+  );
 }
-
 export default MediaCarousel;
