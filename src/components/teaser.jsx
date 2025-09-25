@@ -4,12 +4,12 @@ import MediaCarousel from "./mediaCarousel";
 
 function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) {
   const [isHovered, setIsHovered] = useState(false);
-  const [coords, setCoords] = useState({ x: 0, y: 0 });
+  // const [coords, setCoords] = useState({ x: 0, y: 0 });
   const teaserRef = useRef(null);
 
-  const handleMouseMove = (e) => {
-    setCoords({ x: e.clientX, y: e.clientY });
-  };
+  // const handleMouseMove = (e) => {
+  //   setCoords({ x: e.clientX, y: e.clientY });
+  // };
 
   // scroll to teaser when it becomes active
   useEffect(() => {
@@ -32,7 +32,7 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
         className={`teaser_row ${isHovered ? "hovered" : ""} ${isOpen ? "active" : ""}`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        onMouseMove={handleMouseMove}
+        // onMouseMove={handleMouseMove}
         onClick={() => onToggle(id, isOpen)}
       >
         <td className="title_cell"><strong>{title}</strong></td>

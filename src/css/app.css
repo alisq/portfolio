@@ -193,6 +193,10 @@ table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnai
   display: none;
 }
 
+.filterContainer {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   footer {
     display: block;

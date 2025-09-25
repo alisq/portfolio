@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import projects from "../data.json";
 import Teaser from "./teaser";
@@ -14,26 +15,46 @@ function TeaserList() {
     }
   };
 
-  return (
-    <table>
-      <tbody>
-        {projects.map((item) => (
-          <Teaser
-            key={item.id}
-            id={item.id}
-            title={item.title}
-            year={item.year}
-            media={item.media}
-            pics={item.pics}
-            desc={item.desc}
-            link={item.link}
-            isOpen={teaserId === item.id}
-            onToggle={handleToggle}   // pass handler directly
-          />
-        ))}
-      </tbody>
-    </table>
+    const [mediaFilter, setMediaFilter] = useState(""); // "" means no filter
+
+  // Get all unique media types
+  const allMedia = Array.from(
+    new Set(projects.flatMap((item) => item.media))
   );
+
+  // Filter data based on selected media type
+  const filteredData = mediaFilter
+    ? projects.filter((item) => item.media.includes(mediaFilter))
+    : projects;
+
+    return (
+    <div>
+      <div className="filterContainer">
+      <label>
+        Filter by media:{" "}
+        <select
+          value={mediaFilter}
+          onChange={(e) => setMediaFilter(e.target.value)}
+        >
+          <option value="">All</option>
+          {allMedia.map((m) => (
+            <option key={m} value={m}>
+              {m}
+            </option>
+          ))}
+        </select>
+      </label>
+      </div>
+      <table>
+        <tbody>
+          {filteredData.map((item) => (
+            <Teaser key={item.id} {...item} isOpen={teaserId === item.id} onToggle={handleToggle}    />
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+
 }
 
 export default TeaserList;

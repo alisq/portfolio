@@ -2,7 +2,7 @@
   "name": "p",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alisq.github.io/portfolio/",
+  "homepage": "https://iamasq.github.io/portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -27,7 +27,8 @@
     "compile-sass": "sass src/sass/main.scss src/css/app.css -w",
     "predeploy": "rm -rf docs && npm run build && mv build docs && cp docs/index.html docs/404.html",
     "deploy": "git add docs && git commit -m 'update docs' && git push",
-    "doitall": "npm run predeploy && npm run deploy"
+    "doitall": "npm run predeploy && npm run deploy",
+    "loadINK":"rsync -avz --delete ./docs/ iamasq@opal1.opalstack.com:/home/iamasq/apps/iamasq_works/"
   },
   "eslintConfig": {
     "extends": [
