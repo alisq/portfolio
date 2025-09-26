@@ -33,9 +33,7 @@ function App() {
     </Routes>
     
     <footer>
-              <h1><span className="dg">ali.shamas.qadeer@gmail.com</span></h1>
-            
-              <h1><span className="sem">All fonts on this site designed by yours truly.</span></h1>
+              <h1><span className="dg">ali.shamas.qadeer@gmail.com</span><br /><span className="sem">All fonts on this site designed by yours truly.</span><br /><br /></h1>
             </footer>
     </div>
   );

@@ -36,7 +36,7 @@ function MediaCarousel({ pics = [], flickityOptions = {}, id }) {
               />
 
             ) : null}
-            <p className="caption">{pic.desc}</p>
+            <p className="caption"> {pic.desc} </p>
           </div>
         ))}
     

@@ -129,7 +129,7 @@ table {
         
 
              & .thumbnail {
-                max-height:150px;
+                max-height:100px;
                 transition: all 0.2s;
 
                 .active & {
@@ -156,13 +156,15 @@ table {
 
 .slide {
     width:100%;
+    // max-height:700px;
     // height:800px;
     // position:relative;
     // display:flex;
     
-    & img {
-        max-width:100%;
-        max-height:700px;
+    & img,
+    & video {
+        max-width:100%; 
+        max-height:800px;
         display:block;
         margin:auto;
         // position:absolute;
@@ -223,9 +225,9 @@ table {
   }
   
 
-  .thumbnail {
-    border:1px solid rgba(black, 0.5)
-  }
+//   .thumbnail {
+//     border:1px solid rgba(black, 0.5)
+//   }
 
   .filterContainer {
     display:none;

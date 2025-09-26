@@ -91,8 +91,13 @@
     "thumb":"cover_thumb.png",
     "pics": [
       {
-        "url": "cover.png",
+        "url": "superstudio.webm",
         "desc": "Desktop verion of the fron page for the AAHA Superstudio site",
+        "alt": ""
+      },
+      {
+        "url": "mobile.jpg",
+        "desc": "Mobile verion of the fron page for the AAHA Superstudio site",
         "alt": ""
       }
     ],
@@ -129,6 +134,11 @@
         },
         {
             "url": "round.webm",
+            "alt":"",
+            "desc":""
+        },
+        {
+            "url": "merch.jpg",
             "alt":"",
             "desc":""
         },
@@ -206,6 +216,11 @@
     "media": ["Campaign Design", "Identity"],
     "thumb":"AM-03_thumb.png",
     "pics": [
+      {
+        "url": "main_title.webm",
+        "desc": "",
+        "alt": ""
+      },
       {
         "url": "AM-03.jpg",
         "desc": "",

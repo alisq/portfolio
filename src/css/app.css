@@ -115,7 +115,7 @@ table tr.teaser_row:hover td, table tr.teaser_row.active td {
   padding: 2em 1em;
 }
 table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnail {
-  max-height: 150px;
+  max-height: 100px;
   transition: all 0.2s;
 }
 .active table tr.teaser_row:hover td .thumbnail, .active table tr.teaser_row.active td .thumbnail {
@@ -129,9 +129,9 @@ table tr.teaser_row.active td {
 .slide {
   width: 100%;
 }
-.slide img {
+.slide img, .slide video {
   max-width: 100%;
-  max-height: 700px;
+  max-height: 800px;
   display: block;
   margin: auto;
 }
@@ -175,10 +175,6 @@ table tr.teaser_row.active td {
 
 .big-carousel {
   display: block;
-}
-
-.thumbnail {
-  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .filterContainer {
