@@ -11,7 +11,7 @@ const defaultFlickityOptions = {
   wrapAround: true,
 };
 
-function MediaCarousel({ pics = [], flickityOptions = {} }) {
+function MediaCarousel({ pics = [], flickityOptions = {}, id }) {
   const options = { ...defaultFlickityOptions, ...flickityOptions };
 
   return (
@@ -28,16 +28,19 @@ function MediaCarousel({ pics = [], flickityOptions = {} }) {
           <div className="slide" key={i}>
             {/\.(jpg|jpeg|png|gif|webp|bmp|svg)$/i.test(pic.url) ? (
               <img
-                src={`https://alisq.github.io/portfolio/media/${pic.url}`}
+                src={`/portfolio/media/${id}/${pic.url}`}
                 alt={pic.alt || `Artwork image ${i + 1}`}
               />
             ) : /\.(mp4|webm|ogg)$/i.test(pic.url) ? (
               <video
-                controls
-                src={`https://alisq.github.io/portfolio/media/${pic.url}`}
+                controls={false}
+                autoPlay={true}
+                loop={true}
+                src={`/portfolio/media/${id}/${pic.url}`}
                 alt={pic.alt || `Artwork video ${i + 1}`}
                 style={{ maxWidth: "100%" }}
               />
+
             ) : null}
             <p className="caption">{pic.desc}</p>
           </div>
@@ -49,7 +52,7 @@ function MediaCarousel({ pics = [], flickityOptions = {} }) {
         {pics.map((pic, i) => (
           <img
             key={i}
-            src={`https://alisq.github.io/portfolio/media/${pic.url}`}
+            src={`/portfolio/media/${pic.url}`}
             alt={pic.alt || `Artwork image ${i + 1}`}
           />
         ))}

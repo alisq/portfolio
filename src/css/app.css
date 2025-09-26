@@ -116,6 +116,7 @@ table tr.teaser_row:hover td, table tr.teaser_row.active td {
 }
 table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnail {
   max-height: 150px;
+  transition: all 0.2s;
 }
 .active table tr.teaser_row:hover td .thumbnail, .active table tr.teaser_row.active td .thumbnail {
   max-height: 100px;
@@ -153,19 +154,6 @@ table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnai
   cursor: pointer;
 }
 
-.hover_preview {
-  position: fixed;
-  pointer-events: none;
-}
-.hover_preview img {
-  max-width: 500px;
-  max-height: 300px;
-  transform: translate(20px, -50%);
-}
-.active .hover_preview {
-  display: none;
-}
-
 .expanded {
   max-height: 0;
   overflow: hidden;
@@ -191,6 +179,10 @@ table tr.teaser_row:hover td .thumbnail, table tr.teaser_row.active td .thumbnai
 
 .small-carousel {
   display: none;
+}
+
+.thumbnail {
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .filterContainer {

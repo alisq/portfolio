@@ -4,14 +4,15 @@
     "id": "juncture",
     "year": 2025,
     "media": ["Type Design"],
+    "thumb":"specimen_thumb.jpg",
     "pics": [
       {
-        "url": "juncture/specimen.gif",
+        "url": "specimen.gif",
         "desc": "",
         "alt": "multiple weights as a typographic specimen"
       },
       {
-        "url": "juncture/juncture.gif",
+        "url": "juncture2.webm",
         "desc": "",
         "alt": "animentated alphabet as weight oscillated"
       }
@@ -21,22 +22,23 @@
   },
   {
     "title": "There Are No Words",
-    "id": "nowords",
+    "id": "tanw",
     "year": 2025,
     "media": ["Motion"],
+    "thumb":"tanw-process_thumb.png",
     "pics": [
       {
-        "url": "/tanw/tanw-process.png",
+        "url": "tanw-process.png",
         "desc": "Process document of possible opening credits/title treatments.",
         "alt": "process document screenshot"
       },
       {
-        "url": "/tanw/title.gif",
+        "url": "tanw-opening_ns.webm",
         "desc": "Opening credit typographic treatment",
         "alt": "Opening Credit Sequence: there are no words fades in staggered on black"
       },
       {
-        "url": "/tanw/end.gif",
+        "url": "tanw-closing_ns.webm",
         "desc": "Closing credit typographic treatment.",
         "alt": "end credits"
       }
@@ -44,29 +46,33 @@
     "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
     "link": ""
   },
+
+
+
   {
     "title": "Zeitpunkt",
     "id": "zeitpunkt",
     "year": 2025,
     "media": ["Type Design"],
+    "thumb":"zeitpunkt_thumb.png",
     "pics": [
       {
-        "url": "/zeitpunkt/waterfalls.png",
+        "url": "waterfalls.png",
         "desc": "",
         "alt": "Sample words set in Zeitpunkt"
       },
       {
-        "url": "/zeitpunkt/pages.png ",
+        "url": "pages.png ",
         "desc": "Original scan of Terrorism and Communism found on archive.org",
         "alt": "Original scan of Terrorism and Communism found on archive.org"
       },
       {
-        "url": "/zeitpunkt/specimen.png.001.png ",
+        "url": "specimen.png.001.png ",
         "desc": "Zeitpunkt Characterset",
         "alt": "Zeitpunkt Characterset"
       },
       {
-        "url": "/zeitpunkt/engels.001.png",
+        "url": "engels.001.png",
         "desc": "Test page from Conditions of the Working Class In England",
         "alt": "Test page from Conditions of the Working Class In England"
       }
@@ -79,9 +85,10 @@
     "id": "aahasuperstudio",
     "year": 2025,
     "media": ["Web"],
+    "thumb":"cover_thumb.png",
     "pics": [
       {
-        "url": "/aahasuperstudio/cover.png",
+        "url": "cover.png",
         "desc": "Desktop verion of the fron page for the AAHA Superstudio site",
         "alt": ""
       }
@@ -94,9 +101,10 @@
     "id": "aahanfs",
     "year": 2023,
     "media": ["Web"],
+    "thumb":"cover_thumb.png",  
     "pics": [
       {
-        "url": "/aahanfs/cover.png",
+        "url": "cover.png",
         "desc": "Desktop verion of the fron page for the AAHA Not For Sale site",
         "alt": ""
       }
@@ -109,20 +117,20 @@
     "id": "ocadfa",
     "year": 2020,
     "media": ["Identity", "Campaign Materials", "Ephemera", "Web", "Poster"],
-    "pics": [
-      
+    "thumb": "ocadfa-flag_thumb.png", 
+    "pics": [      
         {
-            "url": "/ocadfa/ocadfa-flag.png",
+            "url": "ocadfa-flag.png",
             "alt":"",
             "desc":""
         },
         {
-            "url": "/ocadfa/round.gif",
+            "url": "round.webm",
             "alt":"",
             "desc":""
         },
         {
-            "url": "/ocadfa/agm.jpg",
+            "url": "agm.jpg",
             "alt":"",
             "desc":""
         }        
@@ -136,14 +144,15 @@
     "id": "totw",
     "year": 2023,
     "media": ["Book"],
+    "thumb":"travellers_thumb.png", 
     "pics": [
       {
-        "url": "/totw/travellers.jpg",
+        "url": "travellers.jpg",
         "desc": "complete dust jacket for Travellers of the World Revolution",
         "alt": "complete dust jacket for Travellers of the World Revolution"
       },
       {
-        "url": "/totw/additionals.jpg",
+        "url": "additionals.jpg",
         "desc": "Additional Cover Sketches",
         "alt": "Additional Cover Sketches"
       }
@@ -153,32 +162,33 @@
   },
   {
     "title": "Aftertext Vol. 01",
-    "id": "aftertexts",
+    "id": "aftertext",
     "year": 2025,
     "media": ["Book"],
+    "thumb":"cover_thumb.png",
     "pics": [
       {
-        "url": "/aftertext/cover.jpg",
+        "url": "cover.jpg",
         "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Front and Back Cover",
         "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Front and Back Cover"
       },
       {
-        "url": "/aftertext/interior-7.jpg",
+        "url": "interior-7.jpg",
         "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
         "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
       },
       {
-        "url": "/aftertext/interior-11.jpg",
+        "url": "interior-11.jpg",
         "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
         "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
       },
       {
-        "url": "/aftertext/interior-19.jpg",
+        "url": "interior-19.jpg",
         "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
         "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
       },
       {
-        "url": "/aftertext/interior-23.jpg",
+        "url": "interior-23.jpg",
         "desc": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread",
         "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
       }
@@ -191,44 +201,45 @@
     "id": "artmet",
     "year": 2024,
     "media": ["Campaign Design", "Identity"],
+    "thumb":"AM-03_thumb.png",
     "pics": [
       {
-        "url": "/artmet/AM-03.jpg",
+        "url": "AM-03.jpg",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/50years.png",
+        "url": "50years.png",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/51years.png",
+        "url": "51years.png",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/card-0.jpg",
+        "url": "card-0.jpg",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/card-1.jpg",
+        "url": "card-1.jpg",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/postcard-0.jpg",
+        "url": "postcard-0.jpg",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/postcard-1.jpg",
+        "url": "postcard-1.jpg",
         "desc": "",
         "alt": ""
       },
       {
-        "url": "/artmet/postcard-2.jpg",
+        "url": "postcard-2.jpg",
         "desc": "",
         "alt": ""
       }
@@ -238,27 +249,28 @@
   },
   {
     "title": "Shot in a Mirror",
-    "id": "sotm",
+    "id": "soam",
     "year": 2022,
     "media": ["Book"],
+    "thumb":"SOAM-4_thumb.png", 
     "pics": [
       {
-        "url": "/soam/SOAM-4.jpg",
+        "url": "SOAM-4.jpg",
         "desc": "Shot In A Mirror — Cover Proof",
         "alt": "Shot In A Mirror — Cover Proof"
       },
       {
-        "url": "/soam/int3.png",
+        "url": "int3.png",
         "desc": "Shot In A Mirror — Don Pyle Interior Page Proof",
         "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
       },
       {
-        "url": "/soam/int1.png",
+        "url": "int1.png",
         "desc": "Shot In A Mirror — Don Pyle Interior Page Proof",
         "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
       },
       {
-        "url": "/soam/int2.png",
+        "url": "int2.png",
         "desc": "Shot In A Mirror — Don Pyle Interior Page Proof",
         "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
       }
@@ -271,14 +283,15 @@
     "id": "thisisnotanarchive",
     "year": 2022,
     "media": ["Web", "Type Design"],
+    "thumb":"coverpage_thumb.png",
     "pics": [
       {
-        "url": "/thisisnotanarchive/coverpage.jpg",
+        "url": "coverpage.jpg",
         "desc": "Opening page with mycillial growth pattern ",
         "alt": "Opening page with mycillial growth pattern"
       },
       {
-        "url": "/thisisnotanarchive/interior.jpg",
+        "url": "interior.jpg",
         "desc": "Interior page",
         "alt": "Interior page"
       }
@@ -291,24 +304,25 @@
     "id": "mice",
     "year": 2022,
     "media": ["Web", "Identity"],
+    "thumb":"mice_thumb.gif",
     "pics": [
       {
-        "url": "/mice/mice.gif",
+        "url": "mice.gif",
         "desc": "Active logo for MICE Magazine",
         "alt": "Active logo for MICE Magazine"
       },
       {
-        "url": "/mice/i4.png",
+        "url": "i4.png",
         "desc": "Cover Page for MICE Issue 04",
         "alt": "Cover Page for MICE Issue 04"
       },
       {
-        "url": "/mice/i3.png",
+        "url": "i3.png",
         "desc": "Cover Page for MICE Issue 04",
         "alt": "Cover Page for MICE Issue 03"
       },
       {
-        "url": "/mice/i1.png",
+        "url": "i1.png",
         "desc": "Cover Page for MICE Issue 04",
         "alt": "Cover Page for MICE Issue 01"
       }
@@ -321,49 +335,50 @@
     "id": "various",
     "year": 2022,
     "media": ["Posters"],
+    "thumb":"various_thumb.png",
     "pics": [
       {
-        "url": "/various/wta.jpg",
+        "url": "wta.jpg",
         "desc": "When They Awake poster proof",
         "alt": ""
       },
       {
-        "url": "/various/AI-0.jpg",
+        "url": "AI-0.jpg",
         "desc": "Angry Inuk poster proof",
         "alt": ""
       },
       {
-        "url": "/various/AI-1.jpg",
+        "url": "AI-1.jpg",
         "desc": "Angry Inuk poster proof",
         "alt": ""
       },
       {
-        "url": "/various/graphic-content.jpg",
+        "url": "graphic-content.jpg",
         "desc": "Graphic Content poster proof",
         "alt": ""
       },
       {
-        "url": "/various/tl.jpg",
+        "url": "tl.jpg",
         "desc": "Tanya Libre poster proof",
         "alt": "Tanya Libre poster proof"
       },
       {
-        "url": "/various/vector2019.jpg",
+        "url": "vector2019.jpg",
         "desc": "Vector Fest 2019 Front Proof",
         "alt": "Vector Fest 2019 Front Proof"
       },
       {
-        "url": "/various/vector2019b.jpg",
+        "url": "vector2019b.jpg",
         "desc": "Vector Fest 2019 Back Proof",
         "alt": "Vector Fest 2019 Back Proof"
       },
       {
-        "url": "/various/vf2018-0.jpg",
+        "url": "vf2018-0.jpg",
         "desc": "Vector Fest 2018 Front Proof",
         "alt": "Vector Fest 2018 Front Proof"
       },
       {
-        "url": "/various/vf2018-1.jpg",
+        "url": "vf2018-1.jpg",
         "desc": "Vector Fest 2018 Back Proof",
         "alt": "Vector Fest 2018 Back Proof"
       }

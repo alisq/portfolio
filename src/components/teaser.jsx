@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import parse from "html-react-parser";
 import MediaCarousel from "./mediaCarousel";
 
-function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) {
+function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle, thumb }) {
   const [isHovered, setIsHovered] = useState(false);
   // const [coords, setCoords] = useState({ x: 0, y: 0 });
   const teaserRef = useRef(null);
@@ -38,7 +38,7 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
         <td className="title_cell"><strong>{title}</strong></td>
         <td>{year}</td>
         <td>{media.join(", ")}</td>
-        <td className="hide_small"><img className="thumbnail" src={`https://alisq.github.io/portfolio/media/${pics[0].url}`} /></td>
+        <td className="hide_small"><img className="thumbnail" src={`/portfolio/media/${id}/${thumb}`} /></td>
         <td><div className="close">&times;</div></td>
       </tr>
 
@@ -65,7 +65,7 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle }) 
             </div>
             <div className="media">
               <div className="artwork">
-                <MediaCarousel pics={pics} />
+                <MediaCarousel pics={pics} id={id} />
               </div>
             </div>
           </div>

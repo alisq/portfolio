@@ -130,6 +130,7 @@ table {
 
              & .thumbnail {
                 max-height:150px;
+                transition: all 0.2s;
 
                 .active & {
                     max-height:100px;
@@ -183,20 +184,7 @@ table {
     }
 }
 
-.hover_preview {
-    position:fixed;
-    pointer-events: none;;
-    & img {
-        
-        max-width:500px;
-        max-height:300px;
-        transform:translate( 20px, -50%)
-    }
 
-    .active &  {
-        display:none;
-    }
-}
 
 
 
@@ -227,6 +215,10 @@ table {
   .small-carousel {
     display: none;
     
+  }
+
+  .thumbnail {
+    border:1px solid rgba(black, 0.5)
   }
 
   .filterContainer {
