@@ -33,6 +33,7 @@ function MediaCarousel({ pics = [], flickityOptions = {}, id }) {
               />
             ) : /\.(mp4|webm|ogg)$/i.test(pic.url) ? (
               <video
+                muted={true}
                 controls={false}
                 autoPlay={true}
                 loop={true}

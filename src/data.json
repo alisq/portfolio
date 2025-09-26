@@ -1,3 +1,6 @@
+ 
+
+
 [
   {
     "title": "Juncture Variable",
@@ -33,12 +36,12 @@
         "alt": "process document screenshot"
       },
       {
-        "url": "tanw-opening_ns.webm",
+        "url": "main_title.webm",
         "desc": "Opening credit typographic treatment",
         "alt": "Opening Credit Sequence: there are no words fades in staggered on black"
       },
       {
-        "url": "tanw-closing_ns.webm",
+        "url": "end_credits.webm",
         "desc": "Closing credit typographic treatment.",
         "alt": "end credits"
       }
@@ -62,12 +65,12 @@
         "alt": "Sample words set in Zeitpunkt"
       },
       {
-        "url": "pages.png ",
+        "url": "pages.png",
         "desc": "Original scan of Terrorism and Communism found on archive.org",
         "alt": "Original scan of Terrorism and Communism found on archive.org"
       },
       {
-        "url": "specimen.png.001.png ",
+        "url": "specimen.png.001.png",
         "desc": "Zeitpunkt Characterset",
         "alt": "Zeitpunkt Characterset"
       },
