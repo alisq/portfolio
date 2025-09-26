@@ -16,14 +16,7 @@ function MediaCarousel({ pics = [], flickityOptions = {}, id }) {
 
   return (
     <>
-      <Flickity
-        className={"carousel big-carousel"}
-        elementType={"div"}
-        options={options}
-        disableImagesLoaded
-        reloadOnUpdate
-        static
-      >
+ 
         {pics.map((pic, i) => (
           <div className="slide" key={i}>
             {/\.(jpg|jpeg|png|gif|webp|bmp|svg)$/i.test(pic.url) ? (
@@ -46,18 +39,7 @@ function MediaCarousel({ pics = [], flickityOptions = {}, id }) {
             <p className="caption">{pic.desc}</p>
           </div>
         ))}
-      </Flickity>
-
-      {/* Simple inline version (for small screens) */}
-      <div className="small-carousel">
-        {pics.map((pic, i) => (
-          <img
-            key={i}
-            src={`/portfolio/media/${pic.url}`}
-            alt={pic.alt || `Artwork image ${i + 1}`}
-          />
-        ))}
-      </div>
+    
     </>
   );
 }

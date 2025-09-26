@@ -20,7 +20,7 @@ function Teaser({ id, title, year, media, pics, desc, link, isOpen, onToggle, th
           behavior: "smooth",
           block: "start",
         });
-      }, 300); // delay in ms
+      }, 600); // delay in ms
     }
     return () => clearTimeout(timeout); // cleanup
   }, [isOpen]);
