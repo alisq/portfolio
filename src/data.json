@@ -4,10 +4,10 @@
     "id": "juncture",
     "year": 2025,
     "media": ["Type Design"],
-    "thumb":"specimen_thumb.jpg",
+    "thumb":"specimen_thumb.png",
     "pics": [
       {
-        "url": "specimen.gif",
+        "url": "specimen.png",
         "desc": "",
         "alt": "multiple weights as a typographic specimen"
       },
