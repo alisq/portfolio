@@ -20,6 +20,7 @@
         "alt": "animentated alphabet as weight oscillated"
       }
     ],
+    "carousel":false,
     "desc": "<p>Juncture is an in-progess typeface, inspired by midcentury industrial utopianism.  Eschewing the human hand for shapes that seek to maximize their own relationships to systematic production, Juncture is an attempt to create a font that looks like it was produced by a committee of tool and dye makers some time in the 1960s.  In its current form, Juncture is a variable font which ranges from a less-refined thin form and a more refined semi-bold. </p>",
     "link": ""
   },
@@ -46,6 +47,7 @@
         "alt": "end credits"
       }
     ],
+    "carousel":false,
     "desc": "<p>Title credits and additional typographic elements for Min Sook Lee's documentary film, There Are No Words.</p>",
     "link": ""
   },
@@ -80,6 +82,7 @@
         "alt": "Test page from Conditions of the Working Class In England"
       }
     ],
+    "carousel":false,
     "desc": "<p>Zeitpunkt is an idiosyncratic revival of <u>Lateinisch</u>, designed for the Berthold Type Foundry by the Vienna Secession artist Peter Schnorr.  Originally discovered in a number of socialist pamphlets printed in Berlin around the the 1920s, I believe the source font was originally used as a transition from Fakturs to Antiquas at the time.</p>",
     "link": ""
   },
@@ -101,6 +104,7 @@
         "alt": ""
       }
     ],
+    "carousel":false,
     "desc": "<p>Website design and development for the superstudio spanning 15+ architectural courses across Canada devoted to ending housing alienation.</p>",
     "link": "https://superstudio.aaha.ca"
   },
@@ -117,6 +121,7 @@
         "alt": ""
       }
     ],
+    "carousel":false,
     "desc": "<p>Website design and development for the Canadian entry into the 2023 Venice Architecture Biennale. I also had the opportunity to work closely on the plan and development of the project as a campaign collaborator and member of the Toronto collective, Gentrification Tax Action.</p>",
     "link": "https://aaha.ca"
   },
@@ -143,12 +148,19 @@
             "desc":""
         },
         {
+            "url": "ocadfa_various.jpg",
+            "alt":"",
+            "desc":""
+        },
+        
+        {
             "url": "agm.jpg",
             "alt":"",
             "desc":""
         }        
     ],
 
+    "carousel":false,
     "desc": "<p>As a personal service to the best part of my institution, I've spent the past few years passively rebranding our faculty union to feel more militant and exciting.</p>",
     "link": ""
   },
@@ -170,6 +182,7 @@
         "alt": "Additional Cover Sketches"
       }
     ],
+    "carousel":false,
     "desc": "<p>Book cover for Brigitte Studer’s comphrensive history of the Third International, released in 2023 on Verso Books</p>",
     "link": "https://www.versobooks.com/en-gb/products/2938-travellers-of-the-world-revolution"
   },
@@ -206,6 +219,7 @@
         "alt": "Aftertext Vol. 01: Azadeh Elmizadeh — Interior Spread"
       }
     ],
+    "carousel":false,
     "desc": "<p>Design and art direction for the innagural monograph of Azadeh Elmizadeh</p>",
     "link": ""
   },
@@ -262,6 +276,7 @@
         "alt": ""
       }
     ],
+    "carousel":false,
     "desc": "<p>Various print and digital assets for Art Metrpole, a Toronto-based, non-profit artist-run centre and bookstore established 1974. </p>",
     "link": ""
   },
@@ -293,6 +308,7 @@
         "alt": "Shot In A Mirror — Don Pyle Interior Page Proof"
       }
     ],
+    "carousel":false,
     "desc": "<p>Book design and art direction for Don Pyle’s second photography book, cataloging images of friends from his 40+ year history in the arts and music scenes in Toronto and beyond.</p>",
     "link": ""
   },
@@ -301,10 +317,10 @@
     "id": "thisisnotanarchive",
     "year": 2022,
     "media": ["Web", "Type Design"],
-    "thumb":"coverpage_thumb.png",
+    "thumb":"cover_thumb.png",
     "pics": [
       {
-        "url": "coverpage.jpg",
+        "url": "thisisnotanarchive.webm",
         "desc": "Opening page with mycillial growth pattern ",
         "alt": "Opening page with mycillial growth pattern"
       },
@@ -314,6 +330,7 @@
         "alt": "Interior page"
       }
     ],
+    "carousel":false,
     "desc": "<p>\"The first chapter of an iterative digital release produced by the Toronto Biennial of Art (TBA). Bringing together the voices and process-based methodologies of past and present contributors to TBA Programs, this publication traces the ever-changing networks of relationships between practices, ideas, and questions brought forward by esteemed contributors, while also offering you as a reader a space to create new connections among the contents with downloadable and printable options.\"</p><p> Website, mycelial growth pattern, interactive mapping application, and parametric typeface all developed in collaboration with Chris Lee.</p>",
     "link": "https://thisisnotanarchive.ca"
   },
@@ -345,6 +362,7 @@
         "alt": "Cover Page for MICE Issue 01"
       }
     ],
+    "carousel":false,
     "desc": "<p>Design and development for MICE (print and web). an online periodical devoted to critical writing and artists’ projects about and within moving image culture. It is published twice annually in Toronto, but its focus is international. As the scope of the project grew beyond moving images, the identity was designed to accommodate multiple acronyms.</p>",
     "link": "https://micemagazine.ca"
   },
@@ -366,11 +384,6 @@
         "alt": ""
       },
       {
-        "url": "AI-1.jpg",
-        "desc": "Angry Inuk poster proof",
-        "alt": ""
-      },
-      {
         "url": "graphic-content.jpg",
         "desc": "Graphic Content poster proof",
         "alt": ""
@@ -386,16 +399,6 @@
         "alt": "Vector Fest 2019 Front Proof"
       },
       {
-        "url": "vector2019b.jpg",
-        "desc": "Vector Fest 2019 Back Proof",
-        "alt": "Vector Fest 2019 Back Proof"
-      },
-      {
-        "url": "vf2018-0.jpg",
-        "desc": "Vector Fest 2018 Front Proof",
-        "alt": "Vector Fest 2018 Front Proof"
-      },
-      {
         "url": "vf2018-1.jpg",
         "desc": "Vector Fest 2018 Back Proof",
         "alt": "Vector Fest 2018 Back Proof"
@@ -406,12 +409,23 @@
         "alt": "Quick poster trying to get students to take a course I was teaching"
       },
       {
+        "url": "vector2019b.jpg",
+        "desc": "Vector Fest 2019 Back Proof",
+        "alt": "Vector Fest 2019 Back Proof"
+      },
+      {
+        "url": "vf2018-0.jpg",
+        "desc": "Vector Fest 2018 Front Proof",
+        "alt": "Vector Fest 2018 Front Proof"
+      },
+      {
         "url": "e.png",
         "desc": "Formal letter E experiment",
         "alt": "Formal letter E experiment"
       }
       
     ],
+    "carousel":false,
     "desc": "<p>Various leavings from recent years. Most of these are digital proofs of risograph prints.</p>",
     "link": ""
   }
