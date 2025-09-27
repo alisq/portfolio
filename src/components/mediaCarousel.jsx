@@ -26,10 +26,12 @@ function MediaCarousel({ pics = [], flickityOptions = {}, id }) {
               />
             ) : /\.(mp4|webm|ogg)$/i.test(pic.url) ? (
               <video
-                muted={true}
                 controls={false}
-                autoPlay={true}
-                loop={true}
+                autoPlay
+                muted
+                loop
+                playsInline
+                webkit-playsinline="true"
                 src={`/portfolio/media/${id}/${pic.url}`}
                 alt={pic.alt || `Artwork video ${i + 1}`}
                 style={{ maxWidth: "100%" }}
